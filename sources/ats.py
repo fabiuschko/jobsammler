@@ -207,7 +207,7 @@ def fetch(companies, roles, known=None, max_details=150, sess=None, log=print):
             if is_excluded_title(rec["title"]) or EXCLUDE_TYPE.search(emp or ""):
                 drop("praktikum/teilzeit/ausbildung")
                 continue
-            location, remote, ok = place(locs, remote_flag)
+            location, remote, ok = place(locs, remote_flag, c.get("orte"))
             if not ok:
                 drop("ort passt nicht")
                 continue

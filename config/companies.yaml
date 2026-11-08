@@ -8,6 +8,7 @@
 # confidence: "sicher" = auf der Karriereseite gefunden, "vermutet" = nur über die Kennung (bitte prüfen),
 #             "geprüft" = vermutet und von Hand bestätigt, "manuell" = von Hand eingetragen
 # Mehrere Kennungen mit Komma trennen (z. B. think-cell).
+# Weitere Orte nur für diese Firma: orte: [Berlin, München]  (sonst gilt: Berlin oder remote in Deutschland)
 
 companies:
 - name: Anthropic
@@ -15,6 +16,10 @@ companies:
   id: anthropic
   website: https://www.anthropic.com
   confidence: sicher
+  orte:
+  - Berlin
+  - München
+  note: keine Berliner Stellen, deutsche Stellen sind in München
 - name: Billie
   system: ashby
   id: billie

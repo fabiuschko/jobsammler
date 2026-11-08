@@ -144,17 +144,37 @@ _GENERIC = re.compile(
 )
 
 
-def place(locations, remote_flag=False):
+# Andere Schreibweisen für Städte, die man in companies.yaml unter "orte" angeben kann
+CITY_ALIASES = {
+    "münchen": "münchen|munich|muenchen",
+    "köln": "köln|cologne|koeln",
+    "frankfurt": "frankfurt",
+    "hamburg": "hamburg",
+    "düsseldorf": "düsseldorf|duesseldorf|dusseldorf",
+    "wien": "wien|vienna",
+    "zürich": "zürich|zurich|zuerich",
+}
+
+
+def place(locations, remote_flag=False, extra_cities=None):
     """Bewertet die Ortsangaben einer Stelle.
 
     Rückgabe: (location_text, remote, ok)
     ok = Berlin, oder remote und (Deutschland/DACH genannt oder gar kein bestimmtes Land, z. B. "Remote Europe").
+    extra_cities: weitere erlaubte Städte für einzelne Firmen (companies.yaml, Feld "orte").
     """
     locs = [l.strip() for l in locations if l and l.strip()]
     text = " | ".join(dict.fromkeys(locs))
     remote = bool(remote_flag or _REMOTE.search(text))
     if any(_BERLIN.search(l) for l in locs):
         return "Berlin", remote, True
+    for city in extra_cities or []:
+        c = str(city).strip().lower()
+        if c == "berlin" or not c:
+            continue
+        rx = re.compile(CITY_ALIASES.get(c, re.escape(c)), re.I)
+        if any(rx.search(l) for l in locs):
+            return str(city).strip(), remote, True
     if remote:
         if _DE.search(text) or not _GENERIC.sub(" ", text).strip():
             return text or "Remote", True, True

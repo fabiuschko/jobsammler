@@ -175,6 +175,7 @@ HEADER = """# Zielfirmen und ihre Bewerbungssysteme.
 # confidence: "sicher" = auf der Karriereseite gefunden, "vermutet" = nur über die Kennung (bitte prüfen),
 #             "geprüft" = vermutet und von Hand bestätigt, "manuell" = von Hand eingetragen
 # Mehrere Kennungen mit Komma trennen (z. B. think-cell).
+# Weitere Orte nur für diese Firma: orte: [Berlin, München]  (sonst gilt: Berlin oder remote in Deutschland)
 
 """
 
@@ -202,6 +203,8 @@ def entry(res, old=None):
     note = (old or {}).get("note") or res["note"]
     if note:
         e["note"] = note
+    if (old or {}).get("orte"):
+        e["orte"] = old["orte"]
     return e
 
 
