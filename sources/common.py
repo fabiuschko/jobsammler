@@ -134,7 +134,14 @@ def senior_flag(title):
 
 _BERLIN = re.compile(r"berlin", re.I)
 _REMOTE = re.compile(r"remote|home ?office|mobiles arbeiten|work from home|anywhere|fully distributed", re.I)
-_DE = re.compile(r"germany|deutschland|\bde\b|\bdach\b|\bger\b|berlin|münchen|munich|hamburg|köln|cologne|frankfurt", re.I)
+# Land Deutschland (bzw. DACH) ausdrücklich genannt – eine Stadt allein reicht nicht
+_COUNTRY_DE = re.compile(r"germany|deutschland|\bde\b|\bdach\b|\bger\b|\bgerman\b", re.I)
+# Weitere Länder neben Deutschland (z. B. "Germany | Austria" bei einer Remote-Stelle) sind kein Ort, der stört
+_COUNTRIES = re.compile(
+    r"austria|österreich|switzerland|schweiz|netherlands|niederlande|belgium|luxembourg|france|ireland|"
+    r"united kingdom|\buk\b|spain|portugal|italy|poland|czechia|czech republic|denmark|sweden|norway|finland",
+    re.I,
+)
 # Wörter, die kein bestimmtes Land meinen ("Remote", "Europe", ...). Bleibt nach dem Entfernen nichts übrig,
 # ist die Stelle ortsunabhängig und kommt in Frage.
 _GENERIC = re.compile(
@@ -160,7 +167,8 @@ def place(locations, remote_flag=False, extra_cities=None):
     """Bewertet die Ortsangaben einer Stelle.
 
     Rückgabe: (location_text, remote, ok)
-    ok = Berlin, oder remote und (Deutschland/DACH genannt oder gar kein bestimmtes Land, z. B. "Remote Europe").
+    ok = Berlin, oder remote in Deutschland: Deutschland/DACH muss genannt sein, und steht eine andere Stadt
+    dabei, muss "remote" ausdrücklich in der Ortsangabe stehen (sonst ist es z. B. Außendienst in München).
     extra_cities: weitere erlaubte Städte für einzelne Firmen (companies.yaml, Feld "orte").
     """
     locs = [l.strip() for l in locations if l and l.strip()]
@@ -175,9 +183,10 @@ def place(locations, remote_flag=False, extra_cities=None):
         rx = re.compile(CITY_ALIASES.get(c, re.escape(c)), re.I)
         if any(rx.search(l) for l in locs):
             return str(city).strip(), remote, True
-    if remote:
-        if _DE.search(text) or not _GENERIC.sub(" ", text).strip():
-            return text or "Remote", True, True
+    if remote and _COUNTRY_DE.search(text):
+        rest = _COUNTRIES.sub(" ", _COUNTRY_DE.sub(" ", _GENERIC.sub(" ", text))).strip()
+        if not rest or _REMOTE.search(text):
+            return text, True, True
     return text, remote, False
 
 
@@ -195,7 +204,7 @@ _LANGS = (
 _MARKETS = (
     r"france|italy|spain|iberia|netherlands|benelux|nordics?|poland|turkey|portugal|czechia|latam|"
     r"japan|korea|brazil|mexico|frankreich|italien|spanien|niederlande|polen|türkei|"
-    r"africa|afrika|apac|asia|asien|americas|north america|nordamerika|middle east|mena"
+    r"africa|afrika|apac|asia|asien|americas|north america|nordamerika|middle east|mena|uae|dubai|saudi|gulf"
 )
 OTHER_LANGUAGE = re.compile(
     rf"\b({_LANGS})[\s-]*(speaking|speaker|sprachig|native)|"

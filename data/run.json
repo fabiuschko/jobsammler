@@ -1,63 +1,63 @@
 {
  "datum": "2026-11-08",
- "gestartet": "2026-11-08T15:32:25+01:00",
- "dauerSekunden": 192,
- "offen": 328,
- "neuHeute": 328,
+ "gestartet": "2026-11-08T18:06:23+01:00",
+ "dauerSekunden": 124,
+ "offen": 315,
+ "neuHeute": 0,
  "geschlossenHeute": 0,
  "geschlossenInDatei": 0,
  "offenProQuelle": {
   "ba": 152,
-  "ashby": 80,
-  "arbeitnow": 45,
+  "ashby": 76,
+  "arbeitnow": 38,
   "greenhouse": 27,
-  "smartrecruiters": 10,
+  "smartrecruiters": 9,
   "workable": 7,
-  "personio": 5,
+  "personio": 4,
   "lever": 2
  },
  "offenProRolle": {
-  "am": 97,
-  "ae": 75,
-  "ren": 41,
+  "am": 96,
+  "ae": 67,
+  "ren": 40,
   "gtm": 27,
   "bd": 22,
   "rec": 21,
-  "pm": 16,
   "fa": 15,
-  "hr": 6,
-  "cx": 3,
+  "pm": 14,
+  "hr": 5,
   "ir": 3,
-  "org": 1,
-  "com": 1
+  "cx": 3,
+  "com": 1,
+  "org": 1
  },
- "ausgeschlossen": 9,
- "zusammengefuehrt": 53,
+ "ausgeschlossen": 8,
+ "zusammengefuehrt": 47,
  "quellen": {
   "firmen": {
-   "stellen": 145,
-   "aufrufe": 64,
+   "stellen": 135,
+   "aufrufe": 54,
    "firmen_mit_fehler": [],
    "aussortiert": {
-    "ort passt nicht": 1742,
-    "andere sprache als deutsch/englisch": 171,
+    "ort passt nicht": 1783,
+    "andere sprache als deutsch/englisch": 177,
     "praktikum/teilzeit/ausbildung": 110,
-    "titel passt zu keiner rolle": 452
+    "titel passt zu keiner rolle": 417
    }
   },
   "arbeitnow": {
-   "stellen": 80,
+   "stellen": 70,
    "aufrufe": 32,
    "aussortiert": {
-    "ort passt nicht": 3795,
-    "titel passt zu keiner rolle": 528,
-    "praktikum/teilzeit/ausbildung": 521,
-    "andere sprache als deutsch/englisch": 211
+    "ort passt nicht": 3939,
+    "titel passt zu keiner rolle": 409,
+    "praktikum/teilzeit/ausbildung": 518,
+    "andere sprache als deutsch/englisch": 215
    }
   },
   "arbeitsagentur": {
    "stellen": 165,
-   "aufrufe": 259,
+   "aufrufe": 107,
    "aussortiert": {
     "titel passt zu keiner rolle": 618,
     "nur teilzeit": 37,
