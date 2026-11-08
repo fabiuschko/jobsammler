@@ -181,7 +181,7 @@ def place(locations, remote_flag=False, extra_cities=None):
     return text, remote, False
 
 
-# ---------- Sprache: Fabian spricht Deutsch und Englisch ----------
+# ---------- Sprache: nur Stellen auf Deutsch oder Englisch ----------
 
 _LANGS = (
     r"french|spanish|italian|dutch|flemish|polish|portuguese|swedish|danish|norwegian|finnish|czech|slovak|"

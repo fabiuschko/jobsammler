@@ -1,7 +1,7 @@
 """Schlägt neue Zielfirmen vor, damit die Liste in config/companies.yaml mitwächst.
 
 Woher: Firmen, die bei Arbeitnow (Start-ups) und optional der Arbeitsagentur mit Stellen
-auftauchen, die zu Fabians Rollen passen, und die noch nicht in companies.yaml stehen.
+auftauchen, die zu den Rollen in roles.yaml passen, und die noch nicht in companies.yaml stehen.
 Für die häufigsten wird das Bewerbungssystem erkannt (scripts/detect_ats.py).
 Ergebnis: Abschnitt "vorschlaege" in config/companies.yaml.
 

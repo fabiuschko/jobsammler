@@ -44,7 +44,7 @@ PATTERNS = [
     ("smartrecruiters", re.compile(r"(?:jobs|careers)\.smartrecruiters\.com/([A-Za-z0-9_-]+)")),
 ]
 
-# Andere Systeme, die wir (noch) nicht abrufen, aber für Fabian benennen
+# Andere Systeme, die wir (noch) nicht abrufen, aber in der Ergebnisliste benennen
 OTHER = {
     "Recruitee": r"\.recruitee\.com",
     "Teamtailor": r"\.teamtailor\.com|teamtailor-cdn",
