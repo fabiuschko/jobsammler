@@ -179,3 +179,36 @@ def place(locations, remote_flag=False, extra_cities=None):
         if _DE.search(text) or not _GENERIC.sub(" ", text).strip():
             return text or "Remote", True, True
     return text, remote, False
+
+
+# ---------- Sprache: Fabian spricht Deutsch und Englisch ----------
+
+_LANGS = (
+    r"french|spanish|italian|dutch|flemish|polish|portuguese|swedish|danish|norwegian|finnish|czech|slovak|"
+    r"slovenian|hungarian|romanian|turkish|greek|arabic|russian|ukrainian|japanese|chinese|mandarin|cantonese|"
+    r"korean|hebrew|croatian|serbian|bulgarian|"
+    r"französisch|spanisch|italienisch|niederländisch|polnisch|portugiesisch|schwedisch|dänisch|norwegisch|"
+    r"finnisch|tschechisch|slowakisch|slowenisch|ungarisch|rumänisch|türkisch|griechisch|arabisch|russisch|"
+    r"ukrainisch|japanisch|chinesisch|koreanisch"
+)
+# Fremdsprachige Märkte im Titel, z. B. "Account Executive - France"
+_MARKETS = (
+    r"france|italy|spain|iberia|netherlands|benelux|nordics?|poland|turkey|portugal|czechia|latam|"
+    r"japan|korea|brazil|mexico|frankreich|italien|spanien|niederlande|polen|türkei"
+)
+OTHER_LANGUAGE = re.compile(
+    rf"\b({_LANGS})[\s-]*(speaking|speaker|sprachig|native)|"
+    rf"\b(fluent|native|verhandlungssicher(es)?)\s+({_LANGS})\b|"
+    rf"\b({_MARKETS})\b|\b({_LANGS})\s+market\b",
+    re.I,
+)
+
+
+# Länderkürzel am Titelende, z. B. "Account Manager ES" (Groß-/Kleinschreibung beachten)
+_COUNTRY_SUFFIX = re.compile(r"[\s(-](ES|FR|IT|NL|PL|PT|TR|SE|DK|NO|FI|CZ|BR|MX|JP)\)?\s*$")
+
+
+def needs_other_language(title):
+    """True, wenn der Titel eine andere Sprache als Deutsch/Englisch oder einen fremdsprachigen Markt nennt."""
+    t = title or ""
+    return bool(OTHER_LANGUAGE.search(t) or _COUNTRY_SUFFIX.search(t))

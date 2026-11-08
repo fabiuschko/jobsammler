@@ -13,7 +13,7 @@ Stand der Prüfung (2026-11-08):
 import base64
 import re
 
-from .common import PoliteSession, RoleMatcher, is_excluded_title, senior_flag, to_text
+from .common import PoliteSession, RoleMatcher, is_excluded_title, needs_other_language, senior_flag, to_text
 
 API = "https://rest.arbeitsagentur.de/jobboerse/jobsuche-service/pc"
 HEADERS = {"X-API-Key": "jobboerse-jobsuche"}
@@ -64,6 +64,8 @@ def _keep(j, matcher):
     text = " ".join([title, j.get("hauptberuf", ""), " ".join(j.get("alleBerufe") or []), j.get("firma", "")])
     if is_excluded_title(title):
         return "", "praktikum/ausbildung/werkstudent"
+    if needs_other_language(title):
+        return "", "andere sprache als deutsch/englisch"
     if EXCLUDE_BA.search(text):
         return "", "außendienst/callcenter/vermittlung"
     if j.get("istGeringfuegigeBeschaeftigung"):

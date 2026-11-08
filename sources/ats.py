@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 from .ats_systems import api_url
-from .common import PoliteSession, RoleMatcher, is_excluded_title, place, senior_flag, to_text
+from .common import PoliteSession, RoleMatcher, is_excluded_title, needs_other_language, place, senior_flag, to_text
 
 # Beschäftigungsarten, die rausfallen (Praktikum, Werkstudent, Teilzeit, Ausbildung, freie Mitarbeit)
 EXCLUDE_TYPE = re.compile(r"intern|praktik|werkstudent|working student|trainee|apprentice|ausbildung|part[- ]?time|teilzeit|temporary", re.I)
@@ -206,6 +206,9 @@ def fetch(companies, roles, known=None, max_details=150, sess=None, log=print):
         for rec, locs, remote_flag, emp in postings:
             if is_excluded_title(rec["title"]) or EXCLUDE_TYPE.search(emp or ""):
                 drop("praktikum/teilzeit/ausbildung")
+                continue
+            if needs_other_language(rec["title"]):
+                drop("andere sprache als deutsch/englisch")
                 continue
             location, remote, ok = place(locs, remote_flag, c.get("orte"))
             if not ok:
