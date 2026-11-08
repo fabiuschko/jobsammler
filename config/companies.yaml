@@ -1,0 +1,231 @@
+# Zielfirmen und ihre Bewerbungssysteme.
+# Neue Firma: im Projektordner ausführen
+#   .venv/bin/python scripts/detect_ats.py "Firmenname" --add
+# oder hier einen Eintrag mit name (und am besten website) ergänzen und
+#   .venv/bin/python scripts/detect_ats.py --all
+# laufen lassen. system/id füllt das Skript aus.
+# Unterstützte Systeme: greenhouse, lever, ashby, personio, workable, smartrecruiters
+# confidence: "sicher" = auf der Karriereseite gefunden, "vermutet" = nur über die Kennung (bitte prüfen),
+#             "geprüft" = vermutet und von Hand bestätigt, "manuell" = von Hand eingetragen
+# Mehrere Kennungen mit Komma trennen (z. B. think-cell).
+
+companies:
+- name: Anthropic
+  system: greenhouse
+  id: anthropic
+  website: https://www.anthropic.com
+  confidence: sicher
+- name: Billie
+  system: ashby
+  id: billie
+  website: https://www.billie.io
+  confidence: geprüft
+- name: Circula
+  system: smartrecruiters
+  id: circulagmbh
+  website: https://www.circula.com
+  confidence: manuell
+  note: 'Name im System: Circula GmbH'
+- name: Civey
+  system: personio
+  id: civey-gmbh
+  website: https://civey.com
+  confidence: sicher
+- name: commercetools
+  system: greenhouse
+  id: commercetools
+  website: https://commercetools.com
+  confidence: geprüft
+  note: 'Name im System: commercetools'
+- name: Contentful
+  system: greenhouse
+  id: contentful
+  website: https://www.contentful.com
+  confidence: geprüft
+  note: 'Website nicht gefunden; Name im System: Contentful'
+- name: doinstruct
+  system: ashby
+  id: doinstruct
+  website: https://www.doinstruct.com
+  confidence: sicher
+- name: Earlybird
+  system: ashby
+  id: earlybirdvc
+  website: https://earlybird.com
+  confidence: manuell
+  note: eigene Stellen von Earlybird (nicht die Portfolio-Börse)
+- name: EcoVadis
+  system: smartrecruiters
+  id: ecovadis
+  website: https://ecovadis.com
+  confidence: sicher
+- name: Forto
+  system: ashby
+  id: forto
+  website: https://forto.com
+  confidence: geprüft
+- name: Gulde & Partner
+  system: personio
+  id: gulde
+  website: ''
+  confidence: geprüft
+- name: Hive
+  system: greenhouse
+  id: hive
+  website: https://www.hive.app
+  confidence: geprüft
+  note: 'Name im System: Hive'
+- name: Langdock
+  system: ashby
+  id: langdock
+  website: https://www.langdock.com
+  confidence: geprüft
+- name: Mentimeter
+  system: greenhouse
+  id: mentimeter
+  website: https://www.mentimeter.com
+  confidence: sicher
+- name: Miro
+  system: ashby
+  id: miro
+  website: https://miro.com
+  confidence: geprüft
+- name: Moonfare
+  system: greenhouse
+  id: moonfare
+  website: https://www.moonfare.com
+  confidence: geprüft
+  note: 'Name im System: Moonfare'
+- name: Moss
+  system: ashby
+  id: moss
+  website: https://www.getmoss.com
+  confidence: geprüft
+- name: n8n
+  system: ashby
+  id: n8n
+  website: https://n8n.io
+  confidence: sicher
+- name: Parloa
+  system: ashby
+  id: parloa
+  website: https://www.parloa.com
+  confidence: geprüft
+- name: Peec AI
+  system: ashby
+  id: peec
+  website: https://peec.ai
+  confidence: sicher
+- name: Pleo
+  system: ashby
+  id: pleo
+  website: https://www.pleo.io
+  confidence: sicher
+- name: Raisin
+  system: greenhouse
+  id: raisin
+  website: https://www.raisin.com
+  confidence: sicher
+- name: Root Global
+  system: ashby
+  id: rootglobal
+  website: https://www.rootglobal.com/
+  confidence: geprüft
+- name: Securitas
+  system: smartrecruiters
+  id: securitas
+  website: https://www.securitas.de
+  confidence: manuell
+  note: weltweite Börse; nur deutsche Stellen nutzen (country=de)
+- name: Seven Senders
+  system: smartrecruiters
+  id: SevenSenders
+  website: https://www.sevensenders.com
+  confidence: sicher
+- name: Shiftmove
+  system: workable
+  id: shiftmove
+  website: https://www.shiftmove.com
+  confidence: geprüft
+  note: 'Name im System: Shiftmove'
+- name: Solaris
+  system: greenhouse
+  id: solarisbank
+  website: https://www.solarisgroup.com
+  confidence: manuell
+  note: 'Name im System: Solaris'
+- name: Superchat
+  system: greenhouse
+  id: superchat
+  website: https://www.superchat.com
+  confidence: sicher
+- name: think-cell
+  system: greenhouse
+  id: think-cell, thinkcellsoftware
+  website: https://www.think-cell.com
+  confidence: manuell
+  note: zwei Greenhouse-Börsen, beide mit Berliner Stellen
+- name: Treatwell
+  system: workable
+  id: treatwell
+  website: https://www.treatwell.de
+  confidence: sicher
+- name: Upvest
+  system: ashby
+  id: upvest
+  website: https://upvest.co
+  confidence: sicher
+- name: Urban Sports Club
+  system: greenhouse
+  id: usc
+  website: https://urbansportsclub.com
+  confidence: manuell
+  note: 'Name im System: Urban Sports Club'
+- name: voize
+  system: ashby
+  id: voize
+  website: https://voize.de
+  confidence: sicher
+nicht_erkannt:
+- name: b2venture
+  website: https://www.b2venture.vc
+  note: kein System erkannt
+- name: Clarity AI
+  website: https://clarity.ai
+  note: kein System erkannt
+- name: Creditsafe
+  website: https://www.creditsafe.com
+  note: kein System erkannt
+- name: FINE Legal
+  website: ''
+  note: Website nicht gefunden
+- name: HiBob
+  website: https://www.hibob.com
+  note: eigenes System, Website blockiert automatische Abrufe
+- name: konfetti
+  website: https://www.konfetti.de/
+  note: kein System erkannt
+- name: Leapsome
+  website: https://www.leapsome.com
+  note: nutzt Ashby, aber öffentliche Schnittstelle abgeschaltet
+- name: Octopus Energy
+  website: https://octopusenergy.de
+  note: kein System erkannt
+- name: Osborne Clarke
+  website: https://www.osborneclarke.com
+  note: kein System erkannt
+- name: Personio
+  website: https://www.personio.com
+  note: eigenes System auf der Karriereseite, keine offene Schnittstelle gefunden
+- name: Point Nine
+  website: https://www.pointnine.com
+  note: kein System erkannt
+- name: Project A
+  website: https://www.project-a.com
+  note: kein System erkannt
+- name: sennder
+  website: https://www.sennder.com
+  note: kein System erkannt
+- name: Vorwerk Ventures
+  website: https://vorwerkventures.com/
+  note: kein System erkannt
