@@ -1,7 +1,7 @@
 {
  "datum": "2026-11-08",
- "gestartet": "2026-11-08T18:06:23+01:00",
- "dauerSekunden": 124,
+ "gestartet": "2026-11-08T18:09:06+01:00",
+ "dauerSekunden": 128,
  "offen": 315,
  "neuHeute": 0,
  "geschlossenHeute": 0,
@@ -26,8 +26,8 @@
   "fa": 15,
   "pm": 14,
   "hr": 5,
-  "ir": 3,
   "cx": 3,
+  "ir": 3,
   "com": 1,
   "org": 1
  },
@@ -49,9 +49,9 @@
    "stellen": 70,
    "aufrufe": 32,
    "aussortiert": {
-    "ort passt nicht": 3939,
-    "titel passt zu keiner rolle": 409,
-    "praktikum/teilzeit/ausbildung": 518,
+    "ort passt nicht": 3940,
+    "titel passt zu keiner rolle": 404,
+    "praktikum/teilzeit/ausbildung": 521,
     "andere sprache als deutsch/englisch": 215
    }
   },
