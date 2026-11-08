@@ -1,0 +1,8 @@
+# Persönliche Bauanleitung bleibt nur lokal
+BAUANLEITUNG.md
+
+# Mac- und Python-Kram
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
