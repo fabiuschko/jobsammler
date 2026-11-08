@@ -1,0 +1,99 @@
+# Rollen und Suchbegriffe.
+# Die Schlüssel (ren, am, ir, ...) nicht umbenennen, das Cockpit nutzt sie.
+# Suchbegriffe kann man jederzeit ergänzen oder streichen.
+
+ren:
+  name: Renewals & Retention
+  terms:
+    - Renewal Manager
+    - Renewals Specialist
+    - Customer Retention
+    - Retention Specialist
+    - Kundenbindung
+
+am:
+  name: Account Management
+  terms:
+    - Account Manager
+    - Key Account Manager
+    - Bestandskunden
+    - Kundenbetreuer B2B
+    - Relationship Manager
+    - Client Manager
+
+ir:
+  name: Investor Relations
+  terms:
+    - Investor Relations
+    - IR Associate
+    - Investorenbetreuung
+
+cx:
+  name: Customer Insights & VoC
+  terms:
+    - Voice of the Customer
+    - Customer Insights
+    - Customer Experience Manager
+    - Client Feedback
+    - Client Listening
+
+bd:
+  name: Business Development Kanzlei/Beratung
+  terms:
+    - Business Development Manager
+    - Client Development
+    - Mandantenbetreuung
+
+pm:
+  name: Partnerships
+  terms:
+    - Partnership Manager
+    - Partner Manager
+    - Kooperationsmanager
+
+ae:
+  name: Account Executive
+  terms:
+    - Account Executive
+    - Junior Account Executive
+    - Sales Manager B2B
+
+gtm:
+  name: GTM & Growth
+  terms:
+    - Go-to-Market
+    - GTM Manager
+    - Growth Manager
+
+fa:
+  name: Founders Associate
+  terms:
+    - Founders Associate
+    - Founder's Associate
+    - Chief of Staff
+
+org:
+  name: Organisations- & People-Beratung
+  terms:
+    - Organisationsberater
+    - People & Culture Consultant
+    - Organisationsentwicklung
+
+hr:
+  name: HR & Employee Relations
+  terms:
+    - Employee Relations
+    - HR Business Partner
+    - Employee Experience
+
+rec:
+  name: Recruiting
+  terms:
+    - Talent Acquisition
+    - Inhouse Recruiter
+    - Recruiter
+
+com:
+  name: Community
+  terms:
+    - Community Manager

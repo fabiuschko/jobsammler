@@ -6,3 +6,4 @@ BAUANLEITUNG.md
 __pycache__/
 *.pyc
 .venv/
+data/ba_test.json
