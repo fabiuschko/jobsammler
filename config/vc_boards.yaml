@@ -1,0 +1,45 @@
+# Jobbörsen von VC-Fonds (Portfolio-Firmen).
+#
+# Stand 2026-11-08: Alle geprüften Börsen laufen auf Getro. Getro verbietet in seinen
+# Nutzungsbedingungen (https://www.getro.com/terms) das automatische Auslesen
+# ("crawls, scrapes, or spiders ... through use of manual or automated means"),
+# und die robots.txt der Börsen verweist auf eine kostenpflichtige API (api@getro.com).
+# Deshalb werden diese Börsen NICHT automatisch abgerufen.
+#
+# Stattdessen: scripts/suggest_companies.py sammelt Start-ups, die bei Arbeitnow oder der
+# Arbeitsagentur mit passenden Stellen auftauchen, und schlägt sie für companies.yaml vor.
+# Deren Stellen kommen dann direkt aus dem Bewerbungssystem der Firma (verlässlichste Quelle).
+#
+# Falls später ein erlaubter Zugang besteht (z. B. Getro-API), hier "erlaubt: true" setzen.
+
+boards:
+  - name: Point Nine
+    url: https://jobs.pointnine.com
+    plattform: getro
+    erlaubt: false
+  - name: b2venture
+    url: https://jobs.b2venture.vc
+    plattform: getro
+    erlaubt: false
+    note: antwortete bei der Prüfung nicht
+  - name: Antler
+    url: https://careers.antler.co
+    plattform: getro
+    erlaubt: false
+  - name: Peak
+    url: https://jobs.peak.capital
+    plattform: getro
+    erlaubt: false
+  - name: Speedinvest
+    url: https://careers.speedinvest.com
+    plattform: getro
+    erlaubt: false
+  - name: Merantix
+    url: https://careers.merantix.com
+    plattform: getro
+    erlaubt: false
+    note: Börse existiert nicht mehr (404)
+  - name: Insight Partners
+    url: https://jobs.insightpartners.com
+    plattform: getro
+    erlaubt: false

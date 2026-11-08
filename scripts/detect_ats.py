@@ -30,7 +30,7 @@ COMPANIES = ROOT / "config" / "companies.yaml"
 CAREER_HINT = re.compile(r"career|karriere|jobs|stellen|join|work-with-us|arbeiten|vacanc|openings|hiring", re.I)
 LEGAL = re.compile(r"\b(gmbh|ag|se|inc|ltd|llc|co|kg|group|holding|software|technologies|global)\b", re.I)
 
-sess = PoliteSession(pause=0.3, timeout=20, retries=1)
+sess = PoliteSession(pause=0.3, timeout=10, retries=0)
 sess.s.headers["User-Agent"] = "Mozilla/5.0 (compatible; jobsammler/0.1; +https://github.com/fabiuschko/jobsammler)"
 
 
@@ -39,7 +39,8 @@ def norm(s):
 
 
 def slugs(name):
-    base = (name or "").lower().replace("&", "and")
+    base = re.sub(r"\b(gmbh|ag|se|kg|ug|mbh|co|inc|ltd|llc|group)\b\.?", " ", (name or "").lower())
+    base = base.replace("&", "and")
     base = re.sub(r"[^a-z0-9 -]", "", base).strip()
     words = base.replace("-", " ").split()
     out = ["".join(words), "-".join(words)]

@@ -234,3 +234,281 @@ nicht_erkannt:
 - name: Vorwerk Ventures
   website: https://vorwerkventures.com/
   note: kein System erkannt
+
+# Vorschläge (von scripts/suggest_companies.py). Übernehmen mit --uebernehmen "Name, Name".
+vorschlaege:
+- name: Enpal
+  system: ashby
+  id: enpal
+  website: https://www.enpal.com/
+  confidence: vermutet
+  treffer: 5
+  rollen: ae, am, gtm
+  beispiel: Paid Social & Growth Development Manager (w/m/d)
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: ElevenLabs
+  system: ashby
+  id: elevenlabs
+  website: https://elevenlabs.io:443/
+  confidence: vermutet
+  treffer: 4
+  rollen: ae, hr
+  beispiel: Account Executive - Enterprise - Insurance
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: Pennylane
+  system: ashby
+  id: pennylane
+  website: https://www.pennylane.com/fr
+  confidence: sicher
+  treffer: 4
+  rollen: ae, pm, ren
+  beispiel: Account Executive – Steuerkanzleien (m/w/d) | Remote, Deutschland
+  quelle: arbeitnow
+- name: Heidi Systems
+  system: ''
+  id: ''
+  website: https://heidisystems.com/
+  treffer: 3
+  rollen: fa
+  beispiel: Founders Associate - Operations
+  quelle: arbeitnow
+- name: Boardwise GmbH
+  system: personio
+  id: boardwise
+  website: ''
+  confidence: vermutet
+  treffer: 2
+  rollen: ren
+  beispiel: Senior Customer Success Manager – Enterprise & Consulting (m/f/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden; per Kennung gefunden, bitte prüfen
+- name: Cosuno
+  system: ashby
+  id: cosuno
+  website: https://www.cosuno.com/de/
+  confidence: vermutet
+  treffer: 2
+  rollen: ae, am
+  beispiel: Enterprise Account Executive (m/f/x)
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: Lovehoney Group
+  system: ''
+  id: ''
+  website: ''
+  treffer: 2
+  rollen: gtm
+  beispiel: Senior Growth Marketing Manager (Maternity Cover)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: Rosental Organics GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 2
+  rollen: fa
+  beispiel: Chief of Staff to CMO (m/w/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: Agicap
+  system: lever
+  id: agicap
+  website: https://agicap.com/de/
+  confidence: vermutet
+  treffer: 1
+  rollen: ae
+  beispiel: Account Executive DACH - Mid-Market (m/f/d)
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: Almetra
+  system: ashby
+  id: almetra
+  website: https://www.almetra.ai/
+  confidence: vermutet
+  treffer: 1
+  rollen: am
+  beispiel: Senior Manager, Account-Based Marketing
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: ALVA Energie
+  system: ''
+  id: ''
+  website: https://www.alva-energie.de/
+  treffer: 1
+  rollen: pm
+  beispiel: Partner Manager (m/w/d)
+  quelle: arbeitnow
+- name: Amplitude
+  system: ashby
+  id: amplitude
+  website: https://amplitude.com/
+  confidence: sicher
+  treffer: 1
+  rollen: ren
+  beispiel: Senior Customer Success Manager - DACH & North
+  quelle: arbeitnow
+- name: Andercore
+  system: ashby
+  id: andercore
+  website: https://www.andercore.com/
+  confidence: sicher
+  treffer: 1
+  rollen: rec
+  beispiel: Recruiter, Commercial
+  quelle: arbeitnow
+- name: bits&birds GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: bd
+  beispiel: Senior Business Development Manager (m/w/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: Camunda
+  system: ashby
+  id: camunda
+  website: https://camunda.com/
+  confidence: sicher
+  treffer: 1
+  rollen: ae
+  beispiel: Enterprise Account Executive II - UAE
+  quelle: arbeitnow
+- name: Cartonplast Group GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: bd
+  beispiel: Business Development Manager (m/w/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: Cell Labs
+  system: personio
+  id: cell-labs
+  website: https://celllabs.com/
+  confidence: vermutet
+  treffer: 1
+  rollen: rec
+  beispiel: Talent Acquisition Manager
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: COLMENA GmbH & Co. KG
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: ae
+  beispiel: Sales Manager B2B (m/w/d) DE - (freiberuflich)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: Constructor
+  system: ashby
+  id: constructor
+  website: https://constructor.com/
+  confidence: vermutet
+  treffer: 1
+  rollen: ren
+  beispiel: Senior Customer Success Manager - DACH
+  quelle: arbeitnow
+  note: per Kennung gefunden, bitte prüfen
+- name: Enter by baupal GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: hr
+  beispiel: (Junior) HR Business Partner (m/w/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: figma
+  system: greenhouse
+  id: figma
+  website: https://www.figma.com/
+  confidence: sicher
+  treffer: 1
+  rollen: ae
+  beispiel: Account Executive, Mid-Market (Berlin, Germany)
+  quelle: arbeitnow
+- name: Fyxer
+  system: ashby
+  id: fyxer
+  website: https://www.fyxer.com/
+  confidence: sicher
+  treffer: 1
+  rollen: ae
+  beispiel: Founding Account Executive, New Business
+  quelle: arbeitnow
+- name: GLS/NXT
+  system: ''
+  id: ''
+  website: https://www.glsnxt.com/
+  treffer: 1
+  rollen: ren
+  beispiel: Customer Success Manager (m/f/x)
+  quelle: arbeitnow
+  note: nutzt vermutlich JOIN (noch nicht unterstützt)
+- name: Heidi
+  system: ''
+  id: ''
+  website: https://heidi.de/
+  treffer: 1
+  rollen: ren
+  beispiel: Founding Customer Success Manager - DACH
+  quelle: arbeitnow
+- name: HeyVera GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: ren
+  beispiel: Senior Customer Success Manager
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: imago stock & people GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: gtm
+  beispiel: Go-to-Market Engineer – Revenue Operations (f/m/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: Kahoot
+  system: workable
+  id: kahoot
+  website: https://kahoot.com/
+  confidence: vermutet
+  treffer: 1
+  rollen: ren
+  beispiel: Senior Customer Success Manager (German-speaking)
+  quelle: arbeitnow
+  note: 'Name im System: Kahoot!'
+- name: Lumiform
+  system: ''
+  id: ''
+  website: https://lumiform.com/
+  treffer: 1
+  rollen: ren
+  beispiel: Customer Success Manager (all genders)
+  quelle: arbeitnow
+- name: MAGYC DRINKS GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: gtm
+  beispiel: Social Commerce & Brand Growth Manager (m/w/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
+- name: marswalk media GmbH
+  system: ''
+  id: ''
+  website: ''
+  treffer: 1
+  rollen: am
+  beispiel: (Senior) Account Manager (m/w/d)
+  quelle: arbeitnow
+  note: Website nicht gefunden
