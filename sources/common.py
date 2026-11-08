@@ -206,7 +206,7 @@ OTHER_LANGUAGE = re.compile(
 
 
 # Länderkürzel am Titelende, z. B. "Account Manager ES" (Groß-/Kleinschreibung beachten)
-_COUNTRY_SUFFIX = re.compile(r"[\s(-](ES|FR|IT|NL|PL|PT|TR|SE|DK|NO|FI|CZ|BR|MX|JP)\)?\s*$")
+_COUNTRY_SUFFIX = re.compile(r"[\s(-](ES|FR|IT|NL|PL|PT|TR|SE|DK|NO|FI|CZ|BR|MX|JP|NA|UK|UKI|AMER|NAMER|APAC|LATAM|US|USA)\)?\s*$")
 
 
 def needs_other_language(title):
