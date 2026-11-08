@@ -194,7 +194,8 @@ _LANGS = (
 # Fremdsprachige Märkte im Titel, z. B. "Account Executive - France"
 _MARKETS = (
     r"france|italy|spain|iberia|netherlands|benelux|nordics?|poland|turkey|portugal|czechia|latam|"
-    r"japan|korea|brazil|mexico|frankreich|italien|spanien|niederlande|polen|türkei"
+    r"japan|korea|brazil|mexico|frankreich|italien|spanien|niederlande|polen|türkei|"
+    r"africa|afrika|apac|asia|asien|americas|north america|nordamerika|middle east|mena"
 )
 OTHER_LANGUAGE = re.compile(
     rf"\b({_LANGS})[\s-]*(speaking|speaker|sprachig|native)|"
