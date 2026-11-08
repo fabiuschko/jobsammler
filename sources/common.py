@@ -128,3 +128,34 @@ def is_excluded_title(title):
 
 def senior_flag(title):
     return bool(SENIOR_TITLE.search(title or ""))
+
+
+# ---------- Ort: Berlin oder remote in Deutschland ----------
+
+_BERLIN = re.compile(r"berlin", re.I)
+_REMOTE = re.compile(r"remote|home ?office|mobiles arbeiten|work from home|anywhere|fully distributed", re.I)
+_DE = re.compile(r"germany|deutschland|\bde\b|\bdach\b|\bger\b|berlin|münchen|munich|hamburg|köln|cologne|frankfurt", re.I)
+# Wörter, die kein bestimmtes Land meinen ("Remote", "Europe", ...). Bleibt nach dem Entfernen nichts übrig,
+# ist die Stelle ortsunabhängig und kommt in Frage.
+_GENERIC = re.compile(
+    r"remote|home ?office|mobiles arbeiten|work from home|anywhere|worldwide|global|fully distributed|"
+    r"europe|europa|\bemea\b|\beu\b|\bcet\b|time ?zones?|hybrid|flexible|office|[|(),/\-–:;]",
+    re.I,
+)
+
+
+def place(locations, remote_flag=False):
+    """Bewertet die Ortsangaben einer Stelle.
+
+    Rückgabe: (location_text, remote, ok)
+    ok = Berlin, oder remote und (Deutschland/DACH genannt oder gar kein bestimmtes Land, z. B. "Remote Europe").
+    """
+    locs = [l.strip() for l in locations if l and l.strip()]
+    text = " | ".join(dict.fromkeys(locs))
+    remote = bool(remote_flag or _REMOTE.search(text))
+    if any(_BERLIN.search(l) for l in locs):
+        return "Berlin", remote, True
+    if remote:
+        if _DE.search(text) or not _GENERIC.sub(" ", text).strip():
+            return text or "Remote", True, True
+    return text, remote, False

@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 .venv/
 data/ba_test.json
+data/ats_test.json
