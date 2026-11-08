@@ -1,0 +1,52 @@
+# Ausschlüsse für alle Quellen. Groß-/Kleinschreibung egal, Teilwörter zählen
+# (z. B. "immobilien" trifft auch "XY Immobilien GmbH").
+
+# Firmen, die nie aufgenommen werden (Axel Springer samt Töchtern, Immobilienfirmen)
+firmen:
+  - axel springer
+  - bonial
+  - idealo
+  - upday
+  - weltn24
+  - bild gmbh
+  - politico
+  - business insider
+  - aviv group
+  - immowelt
+  - immonet
+  - seloger
+  - meinestadt
+  - vonovia
+  - deutsche wohnen
+  - adler group
+  - heimstaden
+  - gewobag
+  - degewo
+  - howoge
+  - berlinovo
+  - immobilien
+  - real estate
+  - property
+  - wohnungsbau
+  - hausverwaltung
+
+# Personalvermittler und Recruiting-Agenturen (Firmenname enthält ...)
+vermittler:
+  - personalvermittlung
+  - personaldienst
+  - personalberatung
+  - recruitment
+  - right people group
+  - jiro consulting
+  - global talent co
+  - hays
+  - randstad
+  - adecco
+  - manpower
+  - michael page
+  - page personnel
+  - robert half
+  - robert walters
+  - headhunter
+  - executive search
+  - staffing
