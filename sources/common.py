@@ -116,7 +116,7 @@ class RoleMatcher:
 
 EXCLUDE_TITLE = re.compile(
     r"praktik|intern\b|internship|werkstudent|working student|studentische|ausbildung|azubi|"
-    r"trainee|minijob|aushilfe|duales studium|dual student|abschlussarbeit|thesis|freelance|freiberuflich",
+    r"trainee|minijob|aushilfe|duales studium|dual student|abschlussarbeit|thesis",
     re.I,
 )
 SENIOR_TITLE = re.compile(r"\b(senior|sr\.?|lead|head|director|principal|vp|vice president)\b", re.I)

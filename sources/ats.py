@@ -13,7 +13,7 @@ from .ats_systems import api_url
 from .common import PoliteSession, RoleMatcher, is_excluded_title, place, senior_flag, to_text
 
 # Beschäftigungsarten, die rausfallen (Praktikum, Werkstudent, Teilzeit, Ausbildung, freie Mitarbeit)
-EXCLUDE_TYPE = re.compile(r"intern|praktik|werkstudent|working student|trainee|apprentice|ausbildung|part[- ]?time|teilzeit|freelance|temporary", re.I)
+EXCLUDE_TYPE = re.compile(r"intern|praktik|werkstudent|working student|trainee|apprentice|ausbildung|part[- ]?time|teilzeit|temporary", re.I)
 
 
 def _day(value):
