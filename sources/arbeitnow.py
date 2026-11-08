@@ -24,7 +24,7 @@ EXCLUDE_TYPE = re.compile(r"intern|praktik|werkstudent|working student|part[- ]?
 
 
 def fetch(roles, sess=None, log=print):
-    sess = sess or PoliteSession(pause=1.0)
+    sess = sess or PoliteSession(pause=2.0)  # Arbeitnow bremst bei schnellen Abrufen (429)
     matcher = RoleMatcher(roles)
     jobs, errors, dropped = {}, [], {}
     total = 0
