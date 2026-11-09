@@ -1,15 +1,15 @@
 {
- "datum": "2026-11-08",
- "gestartet": "2026-11-08T18:09:06+01:00",
- "dauerSekunden": 128,
- "offen": 315,
- "neuHeute": 0,
- "geschlossenHeute": 0,
- "geschlossenInDatei": 0,
+ "datum": "2026-11-09",
+ "gestartet": "2026-11-09T06:30:57+01:00",
+ "dauerSekunden": 125,
+ "offen": 310,
+ "neuHeute": 3,
+ "geschlossenHeute": 8,
+ "geschlossenInDatei": 8,
  "offenProQuelle": {
-  "ba": 152,
+  "ba": 149,
   "ashby": 76,
-  "arbeitnow": 38,
+  "arbeitnow": 36,
   "greenhouse": 27,
   "smartrecruiters": 9,
   "workable": 7,
@@ -17,51 +17,51 @@
   "lever": 2
  },
  "offenProRolle": {
-  "am": 96,
+  "am": 94,
   "ae": 67,
-  "ren": 40,
-  "gtm": 27,
+  "ren": 38,
+  "gtm": 25,
   "bd": 22,
   "rec": 21,
   "fa": 15,
-  "pm": 14,
+  "pm": 15,
   "hr": 5,
-  "cx": 3,
   "ir": 3,
-  "com": 1,
-  "org": 1
+  "cx": 3,
+  "org": 1,
+  "com": 1
  },
  "ausgeschlossen": 8,
- "zusammengefuehrt": 47,
+ "zusammengefuehrt": 46,
  "quellen": {
   "firmen": {
    "stellen": 135,
    "aufrufe": 54,
    "firmen_mit_fehler": [],
    "aussortiert": {
-    "ort passt nicht": 1783,
+    "ort passt nicht": 1782,
     "andere sprache als deutsch/englisch": 177,
     "praktikum/teilzeit/ausbildung": 110,
-    "titel passt zu keiner rolle": 417
+    "titel passt zu keiner rolle": 418
    }
   },
   "arbeitnow": {
-   "stellen": 70,
+   "stellen": 68,
    "aufrufe": 32,
    "aussortiert": {
-    "ort passt nicht": 3940,
-    "titel passt zu keiner rolle": 404,
-    "praktikum/teilzeit/ausbildung": 521,
-    "andere sprache als deutsch/englisch": 215
+    "titel passt zu keiner rolle": 405,
+    "ort passt nicht": 3954,
+    "praktikum/teilzeit/ausbildung": 527,
+    "andere sprache als deutsch/englisch": 217
    }
   },
   "arbeitsagentur": {
-   "stellen": 165,
+   "stellen": 161,
    "aufrufe": 107,
    "aussortiert": {
     "titel passt zu keiner rolle": 618,
     "nur teilzeit": 37,
-    "außendienst/callcenter/vermittlung": 80,
+    "außendienst/callcenter/vermittlung": 78,
     "nicht in berlin": 52,
     "praktikum/ausbildung/werkstudent": 24,
     "andere sprache als deutsch/englisch": 9
