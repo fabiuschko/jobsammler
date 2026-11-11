@@ -1,0 +1,1163 @@
+{
+ "ran_at": "2026-11-11T15:23:40Z",
+ "results": [
+  {
+   "name": "Landwirtschaft, Bergbau",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "01",
+       "02",
+       "03",
+       "04",
+       "05",
+       "06",
+       "07",
+       "08",
+       "09"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 14,
+    "total_results": 14
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-283343",
+     "name": "HR Schiffs-, Stahl- und Anlagenbau GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Die Gewinnung, Aufbereitung von und der Handel mit Bau- und Rohstoffen, die Erbringung von Dienstleistungen im Industrie- und Umweltbereich, der Schiff-, Stahl- und Anlagenbau sowie alle mit diesen Gegenständen unmittelbar oder mittelbar zusammenhängenden Geschäfte.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Industrie, Herstellung",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "10",
+       "11",
+       "12",
+       "13",
+       "14",
+       "15",
+       "16",
+       "17",
+       "18",
+       "19",
+       "20",
+       "21",
+       "22",
+       "23",
+       "24",
+       "25",
+       "26",
+       "27",
+       "28",
+       "29",
+       "30",
+       "31",
+       "32",
+       "33"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 1265,
+    "total_results": 1265
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-74080",
+     "name": "Funkwerk Oltmann GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Die Entwicklung und Fertigung von elektronischen und elektromechanischen Geräten und Anlagen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Energie, Wasser, Entsorgung",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "35",
+       "36",
+       "37",
+       "38",
+       "39"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 130,
+    "total_results": 130
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-292246",
+     "name": "KA4 Schadstoffentfernung und Umwelt GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Fachliche Beratung und Konzeptgestaltung von Sanierungsmaßnahmen, Vermietung von Sanierungsgeräten, Beseitigung von Schadstoffen sowie die mit diesen Arbeiten verbundenen Sondermülltransporten, Entwicklung und Anwendung von Umwelttechniken besonders im Bereich Wasserhaltung, das Betreiben einer Abfallbehandlungsanlage und Konfektionieren von im Besonderen gefährlichen Abfällen für die Endlagerung auf Deponien und das Makeln von Abfällen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Bau, Handwerk",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "41",
+       "42",
+       "43"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 2195,
+    "total_results": 2195
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-11058",
+     "name": "Ernst Weidlich Installationsgesellschaft mbH",
+     "legal_form": "gmbh",
+     "purpose": "Betrieb aller mit der Gas- und Wasserinstallation und der Bauklempnerei zusammenhängenden Geschäfte.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Kfz-Handel, Werkstätten",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "45"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 0,
+    "total_results": 0
+   },
+   "sample": []
+  },
+  {
+   "name": "Großhandel",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "46"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 1358,
+    "total_results": 1358
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-293468",
+     "name": "meinecke promotion GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Der Handel mit und die Veredlung von Textilien sowie die Produktion von und der Handel mit Werbemitteln und Präsenten.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Einzelhandel",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "47"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 528,
+    "total_results": 528
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-290140",
+     "name": "Verapur Schlafsysteme GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Der Einzel- und Großhandel mit Betten, Matratzen und Heimtextilien.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Verkehr, Logistik",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "49",
+       "50",
+       "51",
+       "52",
+       "53"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 479,
+    "total_results": 479
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-51497",
+     "name": "Kroll Internationale Spedition GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Erbringung von Dienstleistungen im Rahmen des Betriebs einer nationalen und internationalen Luftfrachtspedition.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Gastgewerbe",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "55",
+       "56"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 1118,
+    "total_results": 1118
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-53370",
+     "name": "HKS Wohnheime GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Der Betrieb von Wohnheimen sowie die Planung und Durchführung von Elektroinstallation und Elektroanlagenbau.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Verlage, Film, Rundfunk",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "58",
+       "59",
+       "60"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 468,
+    "total_results": 468
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-83659",
+     "name": "DBB Verlag GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Herausgabe und Vertrieb von Druckschriften aller Art, Buchhandel, Beteiligung an Verlagsoder verwandten Unternehmen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Telekommunikation",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "61"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 34,
+    "total_results": 34
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-157080",
+     "name": "RTI Berlin GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Akquise und Betreuung von Mobilfunkstandorten, Servicedienstleistungen und Handel im Telekommunikationsbereich und Sportmanagement und erlaubnisfreie Beratung von Sportlern sowie die Beteiligung an anderen Unternehmen. Außerdem die Verwaltung eigenen Vermögens und das Investment in andere Unternehmen, der Vermögensaufbau sowie der Handel (An- und Verkauf), der Import, der Export und die Vermögensanlage von alternativen Sachwertanlagen und Sammlerobjekten insbesondere Sport- und Sammelkarten sowie Memorabilia. Erlaubnispflichtige Geschäfte sind ausgeschlossen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "IT, Software",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "62",
+       "63"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 1312,
+    "total_results": 1312
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-293559",
+     "name": "Sastrify GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Erbringung von Dienst- und Beratungsleistungen im Bereich Softwarelösungen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Finanzen, Versicherung",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "64",
+       "65",
+       "66"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 320,
+    "total_results": 320
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-113171",
+     "name": "STOFANEL Investment AG",
+     "legal_form": "ag",
+     "purpose": "Erwerb von und die Beteiligung an rechtlich selbständigen Unternehmen bzw. vermögensverwaltenden Gesellschaften bzw. Beteiligungen hieran sowie die Erbringung von Dienstleistungen im Zusammenhang mit diesen Beteiligungen, soweit hierfür keine behördliche Genehmigung erforderlich ist. Gegenstand ist außerdem der Erwerb, die Verwaltung und Nutzung von sonstigen Vermögensgegenständen. Die Gesellschaft kann Verwaltungs-, Finanzierungs- und Führungsfunktionen übernehmen und Beratungs- und Vermittlungsleistungen aller Art erbringen, soweit dies keiner staatlichen Genehmigung bedarf.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Immobilien",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "68"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 707,
+    "total_results": 707
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-67179",
+     "name": "POLIS Immobilien AG",
+     "legal_form": "ag",
+     "purpose": "Ferner kann die Gesellschaft für Dritte Dienstleistungen im Bereich des Asset Managements, insbesondere die Betreuung von Immobilienportfolien einschließlich der kaufmännischen und technischen Grundstücksverwaltung, sowie Dienstleistungen im Bereich des Erwerbs, der Verwaltung und der Nutzung von Grundbesitz erbringen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Recht, Steuer, Unternehmensberatung",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "69",
+       "70"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 965,
+    "total_results": 965
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-112927",
+     "name": "Natulis Group AG",
+     "legal_form": "ag",
+     "purpose": "Die Übernahme der Komplementärstellung in Gesellschaften, deren Unternehmensgegenstand der Erwerb und die Entwicklung von eigenen Gewerbe- und Wohnimmobilien sowie deren Verwaltung und Weiterveräußerung sowie alle damit im Zusammenhang stehenden Geschäfte und Tätigkeiten ist.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Architektur, Ingenieure, Forschung",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "71",
+       "72"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 986,
+    "total_results": 986
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-290260",
+     "name": "PMS GmbH - Planung Management Steuerung",
+     "legal_form": "gmbh",
+     "purpose": "Die Erbringung sämtlicher Leistungen im Zusammenhang mit der Erstellung von Bauwerken, insbesondere Bauleitung und Projektsteuerung. Erlaubnispflichtige Tätigkeiten sind ausgeschlossen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Werbung, Marktforschung, Design",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "73",
+       "74"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 683,
+    "total_results": 683
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-292939",
+     "name": "audienzz Germany GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Die Vermarktung und Beratung von Online-Medien in den Bereichen Online-Werbung, Media-Consultlng, Content- und Business-Development;.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Tierärzte",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "75"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 39,
+    "total_results": 39
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-182554",
+     "name": "vetevo GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Vermarktung und Erbringung von Dienstleistungen im Bereich der Tiermedizin unter Ausschluss von Tätigkeiten, die einer behördlichen Erlaubnis bedürfen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Vermietung, Personal, Sicherheit, Gebäudedienste",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "77",
+       "78",
+       "79",
+       "80",
+       "81",
+       "82"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 1138,
+    "total_results": 1138
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-293690",
+     "name": "Party Rent Group GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Die Übernahme von überregionalen Vertriebsaufgaben sowie der Stellung eines zentralen Ansprechpartners für Kunden im Rahmen des unten näher ausgeführten Franchisesystems \"Rent.Group\"; die Vermittlung von Aufträgen an die einzelnen Franchisenehmer/Systembetriebe im Rahmen des vorgenannten Franchisesystems \"Rent.Group\"; die Koordinierung von Großprojekten, an denen mehrere dieser Franchisenehmer/Systembetriebe als Auftragnehmer mitwirken; sowie im Einzelfall und auf ausdrückliches Kundenverlangen die Übernahme einer Generalunternehmerstellung für Großprojekte. Die Franchisenehmer betreiben am Markt einheitlich auftretende Systembetriebe, die in dem Party Rent-Franchisesystem organisiert sind. Dieses Franchisesystem beinhaltet ein Dienstleistungs- und Warenkonzept, das den Betrieb von Unternehmen ermöglicht, die sich auf die Vermietung von Mobiliar, Ausstattungen und Zubehör für Veranstaltungen spezialisieren und am Markt folgende Dienstleistungen anbieten: den An- und Verkauf sowie die Vermietung von Mobiliar, Ausstattung, Küchengeräten, Tischkultur, Dekoration, Veranstaltungsmaterial und Veranstaltungstechnik; das Ausrichten von Events und Veranstaltungen aller Art; das Erbringen von Dienstleistungen in der Gastronomie, Hotellerie und bei Veranstaltungen; das Künstlermanagement im In- und Ausland; und die Betreuung und Beratung von Firmen, Organisationen und Privatpersonen bei der Konzeption von Veranstaltungen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Öffentliche Verwaltung, Bildung",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "84",
+       "85"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 587,
+    "total_results": 587
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-166921",
+     "name": "speakeasy Berlin GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Die Durchführung von Sprachkursen sowie damit verbundene Dienstleistungen, Projekten im Bereich von Sprachen und Durchführung von offiziellen Sprachprüfungen in der Bildungseinrichtung.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Gesundheit",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "86"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 666,
+    "total_results": 666
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-146775",
+     "name": "HELIOS Gesundheitszentren Berlin GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Der Betrieb eines Medizinischen Versorgungszentrums im Sinne des § 95 Sozialgesetzbuch Teil V (SGB V). Zweck des Betriebes des Medizinischen Versorgungszentrums ist die ambulante Heilbehandlung im Rahmen der vertragsärztlichen und privatärztlichen Versorgung, stationäre Tätigkeiten des Medizinischen Versorgungszentrums und der darin tätigen Ärzte als Belegärzte oder Honorarärzte sowie weitere Tätigkeiten, die Medizinischen Versorgungszentren gesetzlich ermöglicht werden.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Pflege, Soziales",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "87",
+       "88"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 363,
+    "total_results": 363
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-288603",
+     "name": "Noventus Pflegebetriebe Parsberg GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Der Betrieb, die Errichtung und der Erwerb von sozialen Einrichtungen in Parsberg.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Kunst, Kultur, Sport",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "90",
+       "91",
+       "92",
+       "93"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 385,
+    "total_results": 385
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-154104",
+     "name": "FHC Vermarktungs- und Beteiligungsgesellschaft mbH",
+     "legal_form": "gmbh",
+     "purpose": "Kaufmännische Verwaltungsleistung, Vermarktung von Geschäftsideen und Grundstücken im eigenen Namen und nicht für Dritte unter Ausschluss nach dem Kreditwesengesetz (KWG), Beteiligung an diversen Firmen. Weiterer Gegenstand ist das Betreiben von Fitnessanlagen.",
+     "city": "Berlin"
+    }
+   ]
+  },
+  {
+   "name": "Verbände, sonstige Dienste",
+   "status": 200,
+   "body": {
+    "filters": [
+     {
+      "field": "city",
+      "value": "Berlin"
+     },
+     {
+      "field": "active",
+      "value": "true"
+     },
+     {
+      "field": "estimated_employees",
+      "min": "5",
+      "max": "80"
+     },
+     {
+      "field": "primary_industry_codes",
+      "values": [
+       "94",
+       "95",
+       "96"
+      ]
+     }
+    ],
+    "pagination": {
+     "page": 1,
+     "per_page": 1
+    }
+   },
+   "pagination": {
+    "page": 1,
+    "per_page": 1,
+    "total_pages": 224,
+    "total_results": 224
+   },
+   "sample": [
+    {
+     "company_id": "DE-HRB-F1103-280588",
+     "name": "YOUSTHETICS  MedGroup GmbH",
+     "legal_form": "gmbh",
+     "purpose": "Das Angebot, die Einbringung, die Organisation, die Bereitstellung und die Vermittlung von Dienstleistungen (Behandlungen) der ästhetischen Medizin und der Kosmetik sowie das Marketing, der Verkauf und die Anwendung von Produkten im Bereich der Kosmetik und der ästhetischen Medizin.",
+     "city": "Berlin"
+    }
+   ]
+  }
+ ]
+}
