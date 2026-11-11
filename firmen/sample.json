@@ -1,0 +1,89 @@
+{
+ "round": 1,
+ "seed": 20261111,
+ "base": [
+  {
+   "field": "city",
+   "value": "Berlin"
+  },
+  {
+   "field": "active",
+   "value": "true"
+  },
+  {
+   "field": "estimated_employees",
+   "min": "5",
+   "max": "80"
+  }
+ ],
+ "groups": [
+  {
+   "name": "IT, Software",
+   "codes": [
+    "62",
+    "63"
+   ],
+   "total": 1312,
+   "n": 9
+  },
+  {
+   "name": "Recht, Steuer, Unternehmensberatung",
+   "codes": [
+    "69",
+    "70"
+   ],
+   "total": 965,
+   "n": 7
+  },
+  {
+   "name": "Werbung, Marktforschung, Design",
+   "codes": [
+    "73",
+    "74"
+   ],
+   "total": 683,
+   "n": 5
+  },
+  {
+   "name": "Verlage, Film, Rundfunk",
+   "codes": [
+    "58",
+    "59",
+    "60"
+   ],
+   "total": 468,
+   "n": 3
+  },
+  {
+   "name": "Kunst, Kultur, Sport",
+   "codes": [
+    "90",
+    "91",
+    "92",
+    "93"
+   ],
+   "total": 385,
+   "n": 3
+  },
+  {
+   "name": "Finanzen, Versicherung",
+   "codes": [
+    "64",
+    "65",
+    "66"
+   ],
+   "total": 320,
+   "n": 2
+  },
+  {
+   "name": "Verbände, sonstige Dienste",
+   "codes": [
+    "94",
+    "95",
+    "96"
+   ],
+   "total": 224,
+   "n": 1
+  }
+ ]
+}
