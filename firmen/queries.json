@@ -1,14 +1,369 @@
 {
  "base": [
-  {"field": "city", "value": "Berlin"},
-  {"field": "active", "value": "true"},
-  {"field": "estimated_employees", "min": "5", "max": "80"}
+  {
+   "field": "city",
+   "value": "Berlin"
+  },
+  {
+   "field": "active",
+   "value": "true"
+  },
+  {
+   "field": "estimated_employees",
+   "min": "5",
+   "max": "80"
+  }
  ],
  "queries": [
-  {"name": "gesamt_5_80", "per_page": 1, "keep": 1},
-  {"name": "seitengroesse_test_100", "per_page": 100, "keep": 100},
-  {"name": "wz_test_buchstabe_F", "filters": [{"field": "primary_industry_codes", "values": ["F"]}], "keep": 3},
-  {"name": "wz_test_zahl_43", "filters": [{"field": "primary_industry_codes", "values": ["43"]}], "keep": 3},
-  {"name": "wz_test_keywords_43", "filters": [{"field": "industry_codes", "keywords": ["43"]}], "keep": 3}
+  {
+   "name": "Landwirtschaft, Bergbau",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Industrie, Herstellung",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Energie, Wasser, Entsorgung",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Bau, Handwerk",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "41",
+      "42",
+      "43"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Kfz-Handel, Werkstätten",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "45"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Großhandel",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "46"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Einzelhandel",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "47"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Verkehr, Logistik",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "49",
+      "50",
+      "51",
+      "52",
+      "53"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Gastgewerbe",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "55",
+      "56"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Verlage, Film, Rundfunk",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "58",
+      "59",
+      "60"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Telekommunikation",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "61"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "IT, Software",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "62",
+      "63"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Finanzen, Versicherung",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "64",
+      "65",
+      "66"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Immobilien",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "68"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Recht, Steuer, Unternehmensberatung",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "69",
+      "70"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Architektur, Ingenieure, Forschung",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "71",
+      "72"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Werbung, Marktforschung, Design",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "73",
+      "74"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Tierärzte",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "75"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Vermietung, Personal, Sicherheit, Gebäudedienste",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Öffentliche Verwaltung, Bildung",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "84",
+      "85"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Gesundheit",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "86"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Pflege, Soziales",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "87",
+      "88"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Kunst, Kultur, Sport",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "90",
+      "91",
+      "92",
+      "93"
+     ]
+    }
+   ],
+   "keep": 4
+  },
+  {
+   "name": "Verbände, sonstige Dienste",
+   "filters": [
+    {
+     "field": "primary_industry_codes",
+     "values": [
+      "94",
+      "95",
+      "96"
+     ]
+    }
+   ],
+   "keep": 4
+  }
  ]
 }

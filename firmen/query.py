@@ -35,4 +35,5 @@ for q in cfg["queries"]:
     if status in (401, 402):
         break
     time.sleep(1)
+os.makedirs("data/firmen", exist_ok=True)
 json.dump(out, open("data/firmen/results.json", "w"), ensure_ascii=False, indent=1)
