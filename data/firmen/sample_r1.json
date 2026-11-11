@@ -1,0 +1,332 @@
+{
+ "round": 1,
+ "ran_at": "2026-11-11T15:31:46Z",
+ "companies": [
+  {
+   "id": "DE-HRB-F1103-124996",
+   "name": "Life Action Games GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Bereich Computer, Neue Medien, Marketing: Die Entwicklung, Handel und Erstellung von Software, speziell von Computer-Spiele-Software sowie die Verwertung von Lizenzen und anderweitigen Nutzungsrechten im Multimediabereich. Weiterhin Marketing und Produktion von Multimedialen Inhalten, Dienstleistungen auf dem Gebiet der Werbung, die Planung und Durchführung von Großveranstaltungen (Event Management) sowie die Verwertung von Waren- und Markenzeichen (Merchandising) sowie jede damit im Zusammenhang stehende Tätigkeit.",
+   "address": "Rudower Chaussee 29, 12489 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-173642",
+   "name": "Point Blank Games UG (haftungsbeschränkt)",
+   "legal_form": "gmbh",
+   "purpose": "Software- und Videospielentwicklung",
+   "address": "Rheinsberger Straße 1, 14612 Falkensee",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-174343",
+   "name": "simplinic GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Planung und Erstellung von Software-Produkten kommerzieller und technischer Ausrichtung, Vermarktung dieser Produkte sowie die Vermarktung zugehöriger Standardsoftware und -hardware.",
+   "address": "Zionskirchstraße 73 A, 10119 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-93611",
+   "name": "Schaeffer AG",
+   "legal_form": "ag",
+   "purpose": "Die Entwicklung, Serienproduktion und der Vertrieb von Software, elektronischen und mechanischen Geräten und die Serienfertigung von Gehäusen und deren Einzelteilen sowie die Vornahme der hierzu notwendigen Investitionen in Betriebsanlagen und aller sonstigen hiermit zusammenhängenden Geschäfte.",
+   "address": "Nahmitzer Damm 32, 12277 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-238803",
+   "name": "GMC TASSTA GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Entwicklung von Software- und Applikations-Lösungen für professionelle Kommunikation, Alarmierung, Sicherheit und Organisation; Handeln mit Hardware für mobile Kommunikation und ergänzende Systemlösungen für alle Technologien und die Dienstleistungen für Umsetzung und Unterstützung von Projekten.",
+   "address": "Kurfürstendamm 14, 10719 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-55796",
+   "name": "VIRTUAL WORLD IT-Systemhaus GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Beratung über den Einsatz der elektronischen Datenverarbeitung (Consulting), die Projektierung, die Entwicklung, die Schulung, die Produktion und der Vertrieb von Soft- und Hardware in der mobilen und stationären elektronischen Datenverarbeitung sowie Clouddienstleistungen, Managed Services und Gutachtertätigkeiten.",
+   "address": "Gustav-Adolf-Straße 3-4, 13086 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-132968",
+   "name": "Quintus Studios GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Entwicklung, Umsetzung, Betrieb und Vertrieb von Medienkonzepten und Medienplattformen, sowohl im eigenen Auftrag als auch in beratender Funktion. Die Beratung zu genehmigungspflichtigen Bereichen (Recht, Steuern, etc.) ist dabei ausgeschlossen.",
+   "address": "Akazienstraße 28, 10823 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-152823",
+   "name": "HIMSS Europe GmbH",
+   "legal_form": "gmbh",
+   "purpose": "1. Ausbildung, Entwicklung und Verbesserung in allen Bereichen der Informations- und Datenverarbeitungssysteme im Gesundheitswesen durch Konferenzen, Seminare, Kommunikation, Publikationen und andere Programme und Aktivitäten, 2. Betrieb, Entwicklung und Verbesserung von Informations- und Datenverarbeitungssystemen im Gesundheitswesen sowie Pflege, Entwicklung und kommerzielle Vermarktung von Informationsdienstleistungen im Gesundheitswesen, 3. Verwaltung eigenen Vermögens, 4. weitere gewerbliche Aktivitäten, die keiner Erlaubnis unter dem Kreditwesengesetz (KWG) erfordern.",
+   "address": "Bertha-Benz-Straße 5, 10557 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-168513",
+   "name": "GreenStone Energy GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Entwicklung, Implementierung, Produktion und der Vertrieb von Software sowie Hardware für die Energiewirtschaft sowie Anwendung und Betrieb von Software sowie Hardware in allen Wertschöpfungsstufen der Energiewirtschaft. Die Gesellschaft kann auch Service- und Beratungsleistungen auf den vorgenannten Gebieten erbringen.",
+   "address": "Dessauer Straße 28, 10963 Berlin",
+   "group": "IT, Software"
+  },
+  {
+   "id": "DE-HRB-F1103-61459",
+   "name": "Wegweiser Media & Conferences GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Durchführung von Projekten sowie die umfassende Beratung und Erbringung von Dienstleistungen für Dritte bei der Erschließung von Märkten und der Anbahnung von Geschäftsbeziehungen. Ferner: Dienstleistungen im Bereich der Beschaffung und des Vertriebs.",
+   "address": "Novalisstr. 7, 10115 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-101036",
+   "name": "Dentons GmbH Wirtschaftsprüfungsgesellschaft Steuerberatungsgesellschaft",
+   "legal_form": "gmbh",
+   "purpose": "Die für Wirtschaftsprüfungsgesellschaften bzw. Steuerberatungsgesellschaften gesetzlich und berufsrechtlich zulässigen Tätigkeiten gemäß § 2 in Verbindung mit § 43 a Abs. 4 WPO sowie § 33 in Verbindung mit § 57 Abs. 3 StBerG. Handels- und Bankgeschäfte sind ausgeschlossen.",
+   "address": "Markgrafenstr. 33, 10117 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-114746",
+   "name": "Digital Performance GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Beratung und Vermarktung von in- und ausländischen Internet- und Technologieunternehmen und deren Webseiten.",
+   "address": "Ebertstraße 2, 10117 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-267026",
+   "name": "Klopotek GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Tätigkeit als Konzernleitungsgesellschaft für ihre auf dem Gebiet der Informationstechnologie tätigen Beteiligungsgesellschaften; die Erbringung von Dienstleistungen auf dem Gebiet der DV-Infrastruktur, des Marketings und der Öffentlichkeitsarbeit, kaufmännischer Dienstleistungen (Finanzen, Controlling, Rechnungswesen, Personal), des Managements, insbesondere für ihre Beteiligungsgesellschaften; der Erwerb oder die Verwaltung oder die Verwertung von Unternehmen, Anteilen von Unternehmen sowie deren Errichtung, und zwar ausschließlich im eigenen Namen und auf eigene Rechnung.",
+   "address": "Lorenzweg 5 Aufgang A-B, 12099 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-212791",
+   "name": "K-MG Beteiligungs GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Erbringung von Management-, Verwaltungs- und Buchhaltungsdienstleistungen für Tochterunternehmen; die Betreuung von Unternehmen, die mit Einrichtungsgegenständen jeglicher Art, u. a. mit Hausgeräten, handeln, insbesondere deren Absatzoptimierung durch Organisation, Koordination und Konzentration des Wareneinkaufs; die Beratung und Betreuung von Unternehmen im ln- und Ausland in allen betriebswirtschaftlichen und sonstigen Fragen, insbesondere im Bereich des Marketing; die Erbringung von Beratungs- und Marketingleistungen für den Verkauf, die Produktion, die Montage und die Bearbeitung von Kücheneinrichtungen sowie der Großhandel mit Kücheneinrichtungen und Elektrogeräten aller Art; die Finanzierung von Gruppengesellschaften.",
+   "address": "Strausberger Platz 19, 10243 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-18378",
+   "name": "BERLINCOUNSEL Steuerberatungsgesellschaft mbH",
+   "legal_form": "gmbh",
+   "purpose": "(1)Gegenstand der Gesellschaft sind die für die Steuerberatungsgesellschaften gesetzlich und berufsrechtlich zulässigen Tätigkeiten nach §§ 33, 57 Abs. 3 StbG, insbesondere folgende Tätigkeiten für Auftraggeber: a) Steuerberatung und betriebswirtschaftliche Beratung, b) Finanz- und Lohnbuchführung, c) Erstellung von Einnahmen-Überschußrechnungen, Jahresabschlüssen und Steuererklärungen, d) Vertretung im Rechtsbehelfs- und Rechtsmittelverfahren, Bußgeld- und Strafverfahren. (2)Tätigkeiten, die mit dem Beruf des Steuerberaters nicht vereinbar sind, insbesondere gewerbliche Tätigkeiten, sind ausgeschlossen.",
+   "address": "Charlottenstraße 80, 10117 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-54760",
+   "name": "WollnyWP Steuern und Recht GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Beratung und Vertretung in Rechtsangelegenheiten sowie die für Berufsausübungsgesellschaften nach § 59b BRAO weiteren gesetzlich und berufsrechtlich zulässigen Tätigkeiten.",
+   "address": "Bismarckstraße 101, 10625 Berlin",
+   "group": "Recht, Steuer, Unternehmensberatung"
+  },
+  {
+   "id": "DE-HRB-F1103-204114",
+   "name": "TAU GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Konzeption, Entwicklung und Umsetzung sowie die Produktion von Erscheinungsbildern von Marken (Corporate Designs) und die Beratung und Konzeption in den Bereichen Kommunikations-Design und Strategie.",
+   "address": "Köpenicker Straße 154 A, Aufgang D/1. OG, 10997 Berlin",
+   "group": "Werbung, Marktforschung, Design"
+  },
+  {
+   "id": "DE-HRB-F1103-216156",
+   "name": "BfA Büro für Arbeitssicherheit GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Ausführung von erlaubnisfreien Beratungs- und Betreuungsleistungen für Kunden in den Bereichen Arbeits- und Gesundheitsschutz sowie das Prüfen von Betriebsmitteln (z.B. ortsveränderliche und ortsfeste elektrische Geräte und Anlagen, Medizinprodukte, Spielplätze, Spielgeräte etc.).",
+   "address": "Jerichower Straße 10, 12627 Berlin",
+   "group": "Werbung, Marktforschung, Design"
+  },
+  {
+   "id": "DE-HRB-F1103-152839",
+   "name": "INFRA Dialog Deutschland GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Durchführung von Maßnahmen zur Schaffung und Förderung des Bewusstseins in der Bevölkerung und in der Politik über die wirtschaftliche Bedeutung der Infrastruktur, vor allem in den Sektoren Energie und Verkehr. Hierzu werden insbesondere Marketingmaßnahmen und Kommunikationsveranstaltungen sowie wissenschaftliche und bürgerschaftliche Dialoge durchgeführt.",
+   "address": "Leipziger Platz 8, 10117 Berlin",
+   "group": "Werbung, Marktforschung, Design"
+  },
+  {
+   "id": "DE-HRB-F1103-194021",
+   "name": "Taboola Germany GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Tätigkeit als Anbieter von Werbedienste und Content Discovery Plattform.",
+   "address": "Alt-Moabit 2, 10557 Berlin",
+   "group": "Werbung, Marktforschung, Design"
+  },
+  {
+   "id": "DE-HRB-F1103-215163",
+   "name": "Hier Mittenmang - Agentur für Bürger*innenbeteiligung und Kommunikation GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Konzeption, Durchführung, Umsetzung, Begleitung und Kommunikationsberatung für Partizipationsverfahren, Bürger*inneninformation und -dialog, Bürger*innenaktivierung, Beteiligungsverfahren, Presse- und Öffentlichkeitsarbeit, Erstellung von Informationsmaterialien Print und Online.",
+   "address": "Jüterboger Straße 10, 10965 Berlin",
+   "group": "Werbung, Marktforschung, Design"
+  },
+  {
+   "id": "DE-HRB-F1103-94440",
+   "name": "BEBUG Berliner Buch- und Musikverlagsgesellschaft mbH",
+   "legal_form": "gmbh",
+   "purpose": "Betrieb eines Buchverlages, insbesondere Herausgabe, Veröffentlichung und Handel mit Büchern, schriftlichen Erzeugnissen und Grafiken sowie hiermit im Zusammenhang stehenden ähnlichen Produkten. Betrieb einer Musikproduktion und eines Musikverlags; Erwerb von Rechten, insbesondere Urheberrechten für Werke der Tonkunst und Literatur deutschen und ausländischen Ursprungs; Druck, Vertrieb und (musik-)verlegerische Auswertung von Werken der Tonkunst und Literatur; Übertragung von Rechten an solchen Werken; Erwerb von und Beteiligungen an Musikverlagen im In- und Ausland sowie Vornahme aller Geschäfte und Handlungen, die mit dem vorstehenden Geschäftszweig im Zusammenhang stehen und diese zu fördern geeignet sind.",
+   "address": "Axel-Springer-Straße 52, 10969 Berlin",
+   "group": "Verlage, Film, Rundfunk"
+  },
+  {
+   "id": "DE-HRB-F1103-85480",
+   "name": "MedienKontor Movie GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Entwicklung, Herstellung und Vermarktung einschließlich Merchandising von Programmen, Formaten und Lizenzen für sämtliche Medien.",
+   "address": "Cicerostraße 22, 10709 Berlin",
+   "group": "Verlage, Film, Rundfunk"
+  },
+  {
+   "id": "DE-HRB-F1103-85574",
+   "name": "UNIVERSAL / MCA Music Publishing GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Verlagsgeschäfte aller Art, insbesondere Erwerb, Bearbeitung, Verwertung und Vertrieb von Urheberrechten an literarischen Werken und Kompositionen jeglicher Art, Drucklegung und Verwertung von Noten und Büchern, Herstellung und Vertrieb von Tonträgern, Erwerb und Vergabe von Tonfilm- und Televisionsrechten und Betrieb aller damit im Zusammenhang stehenden Geschäfte, Erwerb von Beteiligungen an gleichen und gleichartigen Unternehmen, sowie Vertretung von Künstlern, Schriftstellern und anderen Personen auf allen Gebieten der Unterhaltung und Literatur.",
+   "address": "Mühlenstraße 25, 10243 Berlin",
+   "group": "Verlage, Film, Rundfunk"
+  },
+  {
+   "id": "DE-HRB-F1103-221160",
+   "name": "MT Plus Automatenaufstellung UG (haftungsbeschränkt)",
+   "legal_form": "gmbh",
+   "purpose": "Aufstellung von Automaten und Automaten mit Gewinnmöglichkeit, Handel sowie Im- und Export von und mit Waren verschiedener Art, insbesondere Spielwaren und alle damit verbundenen Geschäfte.",
+   "address": "Hasenheide 108, 10967 Berlin",
+   "group": "Kunst, Kultur, Sport"
+  },
+  {
+   "id": "DE-HRB-F1103-262293",
+   "name": "MB-Konzerte GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Organisation und Realisation von Unterhaltungsveranstaltungen aller Art und der Betrieb einer Konzertagentur.",
+   "address": "Schönholzer Straße 12, 13187 Berlin",
+   "group": "Kunst, Kultur, Sport"
+  },
+  {
+   "id": "DE-HRB-F1103-261953",
+   "name": "Squad Berlin GmbH",
+   "legal_form": "gmbh",
+   "purpose": "1. Die Errichtung und das Management von standortgebundenen Unterhaltungs- bzw. Sporteinrichtungen und begleitenden Dienstleistungen (z.B. Handel mit Lebensmitteln, Getränken, Merchandising-Produkten), 2. die Durchführung von Teambuilding-Events und die Erbringung von Trainings-, Coaching- und Beratungsleistungen, 3. die Konzeption, Erstellung und der Vertrieb von Werbe-, Branding- oder Marketingprodukten oder -dienstleistungen, 4. die Immobilienentwicklung und die Erbringung damit zusammenhängender Dienstleistungen, 5. die Erbringung/Herstellung und der Vertrieb von Softwareprodukten oder -dienstleistungen sowie die Erbringung aller nicht erlaubnispflichtigen Tätigkeiten im Zusammenhang mit 1. bis 5.",
+   "address": "Karl-Liebknecht-Straße 9, 10178 Berlin",
+   "group": "Kunst, Kultur, Sport"
+  },
+  {
+   "id": "DE-HRB-F1103-66387",
+   "name": "DR. SEIFERT - WILMERSDORFER HOCHBAU - AKTIENGESELLSCHAFT",
+   "legal_form": "ag",
+   "purpose": "Der Erwerb und die Verwaltung von Beteiligungen an in- und ausländischen Unternehmungen jeder Art, insbesondere solchen der Wohnungswirtschaft sowie die Vornahme aller sonstigen Geschäfte, die geeignet sind, diesen Unternehmenszweck zu fördern. Die Fortführung des bisherigen Familienunternehmens der Kommanditgesellschaft in Firma Dr. Fritz Seifert \"Wilmersdorfer Hochbau\", die Errichtung und Verwaltung von Gebäuden aller Art insbesondere von Wohngebäuden.",
+   "address": "Kurze Str. 10, 12167 Berlin",
+   "group": "Finanzen, Versicherung"
+  },
+  {
+   "id": "DE-HRB-F1103-126056",
+   "name": "IMTB Group GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Die Beteiligung an in- und ausländischen Unternehmen, die sich mit der Erbringung von Beratungsleistungen im IT-Umfeld und der Konzeption, Entwicklung, Realisierung oder Vermarktung solcher Dienstleistungen befassen sowie alle Leistungen, die mit den vorgenannten Beteiligungen und Tätigkeitsbereichen im Zusammenhang stehen und dem Gesellschaftszweck förderlich sind.",
+   "address": "Schumannstraße 14 b, 10117 Berlin",
+   "group": "Finanzen, Versicherung"
+  },
+  {
+   "id": "DE-HRB-F1103-236512",
+   "name": "Autoservice Kleinfeldt GmbH",
+   "legal_form": "gmbh",
+   "purpose": "Instandsetzung und Reparatur von Kraftfahrzeugen, Umbau von Kraftfahrzeugen, Handel mit Kraftfahrzeugteilen und Kraftfahrzeugausrüstung.",
+   "address": "Zeppelinstraße 7, 14547 Beelitz",
+   "group": "Verbände, sonstige Dienste"
+  }
+ ],
+ "log": [
+  {
+   "group": "IT, Software",
+   "status": 200,
+   "page": 114,
+   "pagination": {
+    "page": 114,
+    "per_page": 9,
+    "total_pages": 146,
+    "total_results": 1312
+   },
+   "error": null
+  },
+  {
+   "group": "Recht, Steuer, Unternehmensberatung",
+   "status": 200,
+   "page": 69,
+   "pagination": {
+    "page": 69,
+    "per_page": 7,
+    "total_pages": 138,
+    "total_results": 965
+   },
+   "error": null
+  },
+  {
+   "group": "Werbung, Marktforschung, Design",
+   "status": 200,
+   "page": 89,
+   "pagination": {
+    "page": 89,
+    "per_page": 5,
+    "total_pages": 137,
+    "total_results": 683
+   },
+   "error": null
+  },
+  {
+   "group": "Verlage, Film, Rundfunk",
+   "status": 200,
+   "page": 41,
+   "pagination": {
+    "page": 41,
+    "per_page": 3,
+    "total_pages": 156,
+    "total_results": 468
+   },
+   "error": null
+  },
+  {
+   "group": "Kunst, Kultur, Sport",
+   "status": 200,
+   "page": 118,
+   "pagination": {
+    "page": 118,
+    "per_page": 3,
+    "total_pages": 129,
+    "total_results": 385
+   },
+   "error": null
+  },
+  {
+   "group": "Finanzen, Versicherung",
+   "status": 200,
+   "page": 81,
+   "pagination": {
+    "page": 81,
+    "per_page": 2,
+    "total_pages": 160,
+    "total_results": 320
+   },
+   "error": null
+  },
+  {
+   "group": "Verbände, sonstige Dienste",
+   "status": 200,
+   "page": 206,
+   "pagination": {
+    "page": 206,
+    "per_page": 1,
+    "total_pages": 224,
+    "total_results": 224
+   },
+   "error": null
+  }
+ ]
+}
