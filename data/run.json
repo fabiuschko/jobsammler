@@ -1,15 +1,15 @@
 {
- "datum": "2026-11-14",
- "gestartet": "2026-11-14T06:16:55+01:00",
- "dauerSekunden": 127,
- "offen": 334,
- "neuHeute": 18,
- "geschlossenHeute": 12,
- "geschlossenInDatei": 72,
+ "datum": "2026-11-15",
+ "gestartet": "2026-11-15T06:20:22+01:00",
+ "dauerSekunden": 118,
+ "offen": 336,
+ "neuHeute": 5,
+ "geschlossenHeute": 3,
+ "geschlossenInDatei": 75,
  "offenProQuelle": {
-  "ba": 154,
+  "ba": 152,
   "ashby": 77,
-  "arbeitnow": 51,
+  "arbeitnow": 55,
   "greenhouse": 26,
   "smartrecruiters": 10,
   "workable": 9,
@@ -17,50 +17,50 @@
   "lever": 3
  },
  "offenProRolle": {
-  "am": 100,
-  "ae": 79,
-  "ren": 40,
-  "gtm": 26,
-  "bd": 21,
+  "am": 98,
+  "ae": 81,
+  "ren": 39,
+  "gtm": 27,
+  "bd": 22,
   "pm": 19,
   "rec": 18,
-  "fa": 17,
+  "fa": 18,
   "hr": 6,
   "cx": 4,
   "ir": 3,
   "org": 1
  },
  "ausgeschlossen": 4,
- "zusammengefuehrt": 43,
+ "zusammengefuehrt": 37,
  "quellen": {
   "firmen": {
    "stellen": 140,
-   "aufrufe": 56,
+   "aufrufe": 55,
    "firmen_mit_fehler": [],
    "aussortiert": {
-    "ort passt nicht": 1791,
+    "ort passt nicht": 1792,
     "titel passt zu keiner rolle": 433,
     "andere sprache als deutsch/englisch": 182,
     "praktikum/teilzeit/ausbildung": 115
    }
   },
   "arbeitnow": {
-   "stellen": 77,
-   "aufrufe": 32,
+   "stellen": 75,
+   "aufrufe": 30,
    "aussortiert": {
-    "ort passt nicht": 3920,
-    "titel passt zu keiner rolle": 507,
-    "praktikum/teilzeit/ausbildung": 507,
-    "andere sprache als deutsch/englisch": 147
+    "ort passt nicht": 3738,
+    "praktikum/teilzeit/ausbildung": 479,
+    "titel passt zu keiner rolle": 511,
+    "andere sprache als deutsch/englisch": 130
    }
   },
   "arbeitsagentur": {
-   "stellen": 164,
-   "aufrufe": 106,
+   "stellen": 162,
+   "aufrufe": 103,
    "aussortiert": {
-    "titel passt zu keiner rolle": 627,
-    "nur teilzeit": 48,
-    "außendienst/callcenter/vermittlung": 80,
+    "titel passt zu keiner rolle": 626,
+    "nur teilzeit": 46,
+    "außendienst/callcenter/vermittlung": 81,
     "nicht in berlin": 57,
     "praktikum/ausbildung/werkstudent": 26,
     "andere sprache als deutsch/englisch": 11
