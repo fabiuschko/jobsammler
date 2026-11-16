@@ -1,15 +1,15 @@
 {
- "datum": "2026-11-15",
- "gestartet": "2026-11-15T06:20:22+01:00",
- "dauerSekunden": 118,
- "offen": 336,
- "neuHeute": 5,
- "geschlossenHeute": 3,
- "geschlossenInDatei": 75,
+ "datum": "2026-11-16",
+ "gestartet": "2026-11-16T06:48:46+01:00",
+ "dauerSekunden": 119,
+ "offen": 339,
+ "neuHeute": 6,
+ "geschlossenHeute": 4,
+ "geschlossenInDatei": 78,
  "offenProQuelle": {
-  "ba": 152,
-  "ashby": 77,
-  "arbeitnow": 55,
+  "ba": 153,
+  "ashby": 78,
+  "arbeitnow": 56,
   "greenhouse": 26,
   "smartrecruiters": 10,
   "workable": 9,
@@ -18,48 +18,49 @@
  },
  "offenProRolle": {
   "am": 98,
-  "ae": 81,
+  "ae": 83,
   "ren": 39,
-  "gtm": 27,
-  "bd": 22,
-  "pm": 19,
-  "rec": 18,
+  "gtm": 28,
+  "bd": 21,
   "fa": 18,
-  "hr": 6,
+  "pm": 18,
+  "rec": 18,
+  "hr": 7,
   "cx": 4,
   "ir": 3,
+  "com": 1,
   "org": 1
  },
  "ausgeschlossen": 4,
  "zusammengefuehrt": 37,
  "quellen": {
   "firmen": {
-   "stellen": 140,
+   "stellen": 141,
    "aufrufe": 55,
    "firmen_mit_fehler": [],
    "aussortiert": {
-    "ort passt nicht": 1792,
-    "titel passt zu keiner rolle": 433,
-    "andere sprache als deutsch/englisch": 182,
-    "praktikum/teilzeit/ausbildung": 115
+    "ort passt nicht": 1779,
+    "titel passt zu keiner rolle": 434,
+    "andere sprache als deutsch/englisch": 183,
+    "praktikum/teilzeit/ausbildung": 116
    }
   },
   "arbeitnow": {
-   "stellen": 75,
+   "stellen": 76,
    "aufrufe": 30,
    "aussortiert": {
-    "ort passt nicht": 3738,
-    "praktikum/teilzeit/ausbildung": 479,
-    "titel passt zu keiner rolle": 511,
-    "andere sprache als deutsch/englisch": 130
+    "ort passt nicht": 3680,
+    "titel passt zu keiner rolle": 505,
+    "praktikum/teilzeit/ausbildung": 466,
+    "andere sprache als deutsch/englisch": 119
    }
   },
   "arbeitsagentur": {
-   "stellen": 162,
-   "aufrufe": 103,
+   "stellen": 163,
+   "aufrufe": 105,
    "aussortiert": {
-    "titel passt zu keiner rolle": 626,
-    "nur teilzeit": 46,
+    "titel passt zu keiner rolle": 630,
+    "nur teilzeit": 48,
     "außendienst/callcenter/vermittlung": 81,
     "nicht in berlin": 57,
     "praktikum/ausbildung/werkstudent": 26,
