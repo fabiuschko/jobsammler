@@ -1,15 +1,15 @@
 {
- "datum": "2026-11-16",
- "gestartet": "2026-11-16T06:48:46+01:00",
- "dauerSekunden": 119,
+ "datum": "2026-11-17",
+ "gestartet": "2026-11-17T06:25:14+01:00",
+ "dauerSekunden": 118,
  "offen": 339,
- "neuHeute": 6,
- "geschlossenHeute": 4,
- "geschlossenInDatei": 78,
+ "neuHeute": 10,
+ "geschlossenHeute": 13,
+ "geschlossenInDatei": 88,
  "offenProQuelle": {
-  "ba": 153,
-  "ashby": 78,
-  "arbeitnow": 56,
+  "ba": 151,
+  "ashby": 81,
+  "arbeitnow": 55,
   "greenhouse": 26,
   "smartrecruiters": 10,
   "workable": 9,
@@ -20,11 +20,11 @@
   "am": 98,
   "ae": 83,
   "ren": 39,
-  "gtm": 28,
+  "gtm": 29,
   "bd": 21,
-  "fa": 18,
-  "pm": 18,
+  "pm": 19,
   "rec": 18,
+  "fa": 16,
   "hr": 7,
   "cx": 4,
   "ir": 3,
@@ -35,36 +35,36 @@
  "zusammengefuehrt": 37,
  "quellen": {
   "firmen": {
-   "stellen": 141,
+   "stellen": 144,
    "aufrufe": 55,
    "firmen_mit_fehler": [],
    "aussortiert": {
-    "ort passt nicht": 1779,
-    "titel passt zu keiner rolle": 434,
-    "andere sprache als deutsch/englisch": 183,
-    "praktikum/teilzeit/ausbildung": 116
+    "ort passt nicht": 1788,
+    "titel passt zu keiner rolle": 432,
+    "andere sprache als deutsch/englisch": 182,
+    "praktikum/teilzeit/ausbildung": 113
    }
   },
   "arbeitnow": {
-   "stellen": 76,
-   "aufrufe": 30,
+   "stellen": 74,
+   "aufrufe": 29,
    "aussortiert": {
-    "ort passt nicht": 3680,
-    "titel passt zu keiner rolle": 505,
-    "praktikum/teilzeit/ausbildung": 466,
+    "titel passt zu keiner rolle": 514,
+    "ort passt nicht": 3765,
+    "praktikum/teilzeit/ausbildung": 564,
     "andere sprache als deutsch/englisch": 119
    }
   },
   "arbeitsagentur": {
-   "stellen": 163,
-   "aufrufe": 105,
+   "stellen": 162,
+   "aufrufe": 108,
    "aussortiert": {
-    "titel passt zu keiner rolle": 630,
+    "titel passt zu keiner rolle": 640,
     "nur teilzeit": 48,
-    "außendienst/callcenter/vermittlung": 81,
+    "außendienst/callcenter/vermittlung": 83,
     "nicht in berlin": 57,
     "praktikum/ausbildung/werkstudent": 26,
-    "andere sprache als deutsch/englisch": 11
+    "andere sprache als deutsch/englisch": 13
    },
    "abgeschnitten": []
   }
