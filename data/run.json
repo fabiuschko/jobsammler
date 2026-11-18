@@ -1,69 +1,69 @@
 {
- "datum": "2026-11-17",
- "gestartet": "2026-11-17T06:25:14+01:00",
- "dauerSekunden": 118,
+ "datum": "2026-11-18",
+ "gestartet": "2026-11-18T06:27:38+01:00",
+ "dauerSekunden": 129,
  "offen": 339,
- "neuHeute": 10,
- "geschlossenHeute": 13,
- "geschlossenInDatei": 88,
+ "neuHeute": 23,
+ "geschlossenHeute": 23,
+ "geschlossenInDatei": 111,
  "offenProQuelle": {
   "ba": 151,
-  "ashby": 81,
-  "arbeitnow": 55,
-  "greenhouse": 26,
+  "ashby": 84,
+  "arbeitnow": 50,
+  "greenhouse": 27,
   "smartrecruiters": 10,
   "workable": 9,
-  "personio": 4,
-  "lever": 3
+  "lever": 4,
+  "personio": 4
  },
  "offenProRolle": {
-  "am": 98,
-  "ae": 83,
-  "ren": 39,
-  "gtm": 29,
-  "bd": 21,
-  "pm": 19,
-  "rec": 18,
-  "fa": 16,
-  "hr": 7,
-  "cx": 4,
+  "am": 97,
+  "ae": 82,
+  "ren": 41,
+  "gtm": 31,
+  "bd": 22,
+  "rec": 19,
+  "pm": 17,
+  "fa": 14,
+  "hr": 8,
   "ir": 3,
+  "cx": 3,
   "com": 1,
   "org": 1
  },
- "ausgeschlossen": 4,
- "zusammengefuehrt": 37,
+ "ausgeschlossen": 5,
+ "zusammengefuehrt": 36,
  "quellen": {
   "firmen": {
-   "stellen": 144,
+   "stellen": 150,
    "aufrufe": 55,
    "firmen_mit_fehler": [],
    "aussortiert": {
-    "ort passt nicht": 1788,
-    "titel passt zu keiner rolle": 432,
-    "andere sprache als deutsch/englisch": 182,
+    "ort passt nicht": 1794,
+    "titel passt zu keiner rolle": 445,
+    "andere sprache als deutsch/englisch": 187,
     "praktikum/teilzeit/ausbildung": 113
    }
   },
   "arbeitnow": {
-   "stellen": 74,
-   "aufrufe": 29,
+   "stellen": 68,
+   "aufrufe": 32,
    "aussortiert": {
-    "titel passt zu keiner rolle": 514,
-    "ort passt nicht": 3765,
-    "praktikum/teilzeit/ausbildung": 564,
-    "andere sprache als deutsch/englisch": 119
+    "ort passt nicht": 4326,
+    "praktikum/teilzeit/ausbildung": 692,
+    "titel passt zu keiner rolle": 552,
+    "andere sprache als deutsch/englisch": 130
    }
   },
   "arbeitsagentur": {
    "stellen": 162,
    "aufrufe": 108,
    "aussortiert": {
-    "titel passt zu keiner rolle": 640,
-    "nur teilzeit": 48,
-    "außendienst/callcenter/vermittlung": 83,
-    "nicht in berlin": 57,
-    "praktikum/ausbildung/werkstudent": 26,
+    "titel passt zu keiner rolle": 667,
+    "nur teilzeit": 54,
+    "außendienst/callcenter/vermittlung": 84,
+    "nicht in berlin": 56,
+    "praktikum/ausbildung/werkstudent": 28,
     "andere sprache als deutsch/englisch": 13
    },
    "abgeschnitten": []
