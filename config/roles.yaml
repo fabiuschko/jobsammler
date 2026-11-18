@@ -98,3 +98,45 @@ com:
   name: Community
   terms:
     - Community Manager
+
+ein:
+  name: Einkauf & Procurement
+  terms:
+    - Procurement
+    - Procurement Manager
+    - Strategic Buyer
+    - Strategischer Einkäufer
+    - Category Manager
+    - Sourcing Manager
+    - Einkäufer
+    - Einkauf
+    - Einkaufsleiter
+    - Einkaufsmanager
+    - Purchasing Manager
+    - Purchaser
+    - Technical Buyer
+    - Indirect Buyer
+    - Beschaffung
+    - Supply Chain Manager
+    - Supplier Manager
+    - Lieferantenmanagement
+
+fc:
+  name: Finanzen & Controlling
+  terms:
+    - Controller
+    - Controlling
+    - Financial Controller
+    - Business Controller
+    - FP&A
+    - Financial Planning
+    - Finance Manager
+    - Finance Business Partner
+    - Kaufmännische Leitung
+    - Accountant
+    - Buchhalter
+    - Bilanzbuchhalter
+    - Finanzbuchhalter
+    - Kreditorenbuchhalter
+    - Head of Finance
+    - Buchhaltung
