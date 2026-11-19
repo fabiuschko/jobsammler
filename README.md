@@ -53,7 +53,7 @@ als `vorschlaege` in `companies.yaml`. Übernehmen mit `--uebernehmen "Firma A, 
 
 ## Filter (grob, die Feinbewertung macht Claude)
 
-- Ort: Berlin oder remote in Deutschland
+- Ort: Berlin oder remote in Deutschland; Ausnahme Rolle `tr` (Trading & Handel): ganz Deutschland, nur über die Arbeitsagentur
 - Raus: Praktikum, Werkstudent, Ausbildung, Minijob, Teilzeit; Stellen, deren Titel eine andere Sprache als Deutsch/Englisch
   oder einen ausländischen Markt verlangt; bei der Arbeitsagentur außerdem Zeitarbeit, Personalvermittlung, Außendienst, Callcenter
 - Markiert statt rausgeworfen: Senior, Lead, Head, Director, Principal (`seniorFlag: true`)

@@ -140,3 +140,31 @@ fc:
     - Kreditorenbuchhalter
     - Head of Finance
     - Buchhaltung
+
+tr:
+  name: Trading & Handel
+  # Klassischer Rohstoff-, Stahl-, Agrar- und Großhandel sowie Energiehandel.
+  # Echte Trader-Stellen gibt es kaum in Berlin, darum sucht diese Rolle in ganz Deutschland
+  # (nur bei der Arbeitsagentur, Suchbegriff „Einkauf Verkauf“ findet auch „Einkauf/Verkauf“). Finanzhandel (Wertpapiere, Devisen) bleibt draußen.
+  deutschlandweit: true
+  terms:
+    - Trader
+    - Junior Trader
+    - Commodity Trader
+    - Trading
+    - Händler
+    - Rohstoffhändler
+    - Rohstoffhandel
+    - Stahlhändler
+    - Stahlhandel
+    - Metallhändler
+    - Metallhandel
+    - Getreidehändler
+    - Getreidehandel
+    - Agrarhändler
+    - Energiehändler
+    - Energiehandel
+    - Stromhändler
+    - Gashändler
+    - Originator
+    - Einkauf Verkauf

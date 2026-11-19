@@ -22,6 +22,17 @@ PUBLIC_URL = "https://www.arbeitsagentur.de/jobsuche/jobdetail/{}"
 PAGE_SIZE = 100
 MAX_PAGES_BERLIN = 5   # pro Suchbegriff höchstens 500 Treffer in Berlin
 MAX_PAGES_REMOTE = 1   # deutschlandweit nur die ersten 100, daraus nur 100 % Homeoffice
+MAX_PAGES_DE = 3       # Rollen mit "deutschlandweit: true": höchstens 300 Treffer pro Suchbegriff
+
+# Bei deutschlandweiten Rollen (Trading & Handel) zusätzlich raus: Lager, Fahrer, Gastronomie,
+# Autohandel und Finanzhandel (Wertpapiere, Devisen), denn gesucht ist Handel mit Rohstoffen und Industrieware.
+EXCLUDE_DE = re.compile(
+    r"fahrer|lager|logistik|koch|köchin|chef de|demi chef|host|barchef|restaurant|kellner|service ?kraft|"
+    r"gebrauchtwagen|autohaus|automobil|kfz|bmw|mini\b|mechaniker|schlosser|sortierer|monteur|handwerk|"
+    r"wertpapier|devisen|\bfx\b|market making|aktien|anleihen|krypto|crypto|equity|fixed income|"
+    r"handler\b|material handler|ramp|engineer|entwickler|developer|salestrader|execution|multi asset|\bdcm\b",
+    re.I,
+)
 
 # Unerwünscht im breiten Netz (Titel, Beruf oder Firma)
 EXCLUDE_BA = re.compile(
@@ -128,10 +139,14 @@ def fetch(roles, known=None, max_details=250, sess=None, log=print):
         for term in spec.get("terms", []):
             # 1) Berlin und 25 km Umkreis, alle Seiten (bis zur Obergrenze)
             # 2) deutschlandweit, nur Stellen mit 100 % Homeoffice
-            for mode, extra, max_pages in (
-                ("berlin", {"wo": "Berlin", "umkreis": 25}, MAX_PAGES_BERLIN),
-                ("remote", {}, MAX_PAGES_REMOTE),
-            ):
+            # 3) Rollen mit "deutschlandweit: true": ganz Deutschland, Rolle muss zum Titel passen
+            modes = (
+                (("de", {}, MAX_PAGES_DE),) if spec.get("deutschlandweit") else (
+                    ("berlin", {"wo": "Berlin", "umkreis": 25}, MAX_PAGES_BERLIN),
+                    ("remote", {}, MAX_PAGES_REMOTE),
+                )
+            )
+            for mode, extra, max_pages in modes:
                 for page in range(1, max_pages + 1):
                     try:
                         d = _search(sess, {**base, **extra, "was": term, "page": page})
@@ -149,6 +164,11 @@ def fetch(roles, known=None, max_details=250, sess=None, log=print):
                             dropped["nicht in berlin"] = dropped.get("nicht in berlin", 0) + 1
                             continue
                         role, why = _keep(j, matcher)
+                        if not why and mode == "de":
+                            if role != key and "Berlin" not in _orte(j) and not remote:
+                                why = "nicht in berlin"
+                            elif role == key and EXCLUDE_DE.search(j.get("stellenangebotsTitel", "")):
+                                why = "trading: lager/fahrer/auto/finanzhandel"
                         if why:
                             dropped[why] = dropped.get(why, 0) + 1
                             continue
@@ -157,7 +177,7 @@ def fetch(roles, known=None, max_details=250, sess=None, log=print):
                     total = d.get("maxErgebnisse") or 0
                     if page * PAGE_SIZE >= total or not items:
                         break
-                    if mode == "berlin" and page == max_pages:
+                    if mode in ("berlin", "de") and page == max_pages:
                         truncated.append(f"{term}: {total} Treffer, nur {max_pages * PAGE_SIZE} gelesen")
 
     # Beschreibungstexte: bekannte übernehmen, neue (begrenzt) nachladen
