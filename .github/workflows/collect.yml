@@ -2,7 +2,7 @@ name: Stellen sammeln
 
 on:
   schedule:
-    - cron: "30 4 * * *"   # täglich 04:30 UTC (05:30 Uhr Winterzeit / 06:30 Uhr Sommerzeit in Berlin)
+    - cron: "30 4 * * 1"   # wöchentlich montags 04:30 UTC (05:30 Uhr Winterzeit / 06:30 Uhr Sommerzeit in Berlin)
   workflow_dispatch:        # manuell startbar über "Run workflow"
 
 permissions:

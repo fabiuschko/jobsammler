@@ -1,7 +1,7 @@
 # Jobsammler
 
-Sammelt jeden Morgen offene Stellen aus verlässlichen, strukturierten Quellen und schreibt sie nach
-[`data/jobs.json`](data/jobs.json). Läuft automatisch als GitHub Action (täglich 04:30 UTC), auch wenn kein Rechner an ist.
+Sammelt einmal pro Woche offene Stellen aus verlässlichen, strukturierten Quellen und schreibt sie nach
+[`data/jobs.json`](data/jobs.json). Läuft automatisch als GitHub Action (montags 04:30 UTC), auch wenn kein Rechner an ist.
 
 **Regel:** Eine Stelle ist offen, wenn sie heute in der Quelle steht. Fehlt sie, ist sie geschlossen.
 Geschlossene Stellen bleiben 60 Tage in der Datei.
